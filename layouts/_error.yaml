@@ -1,0 +1,291 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/error.png'
+  name: _error
+  timestamp: 1474265166
+layout:
+  /header/:
+    -
+      - 'logo-2371 56'
+      - 'menu-3709 44'
+  /navigation/:
+    -
+      - 'menu-4987 80'
+      - 'social-2827 20'
+  /showcase/:
+    -
+      - 'error-4477 100'
+  /container-main/:
+    -
+      -
+        'mainbar 67':
+          -
+            - 'system-content-7076 100'
+      -
+        'sidebar 33': {  }
+  /extension/:
+    -
+      - 'error-4541 100'
+  /footer/:
+    -
+      - 'position-footer-3468 100'
+    -
+      - 'position-footer-8980 25'
+      - 'position-footer-8721 25'
+      - 'position-footer-8325 25'
+      - 'position-footer-7290 25'
+    -
+      - 'position-footer-4360 100'
+  /copyright/:
+    -
+      - 'position-copyright-7236 100'
+    -
+      - 'position-copyright-7911 33.3'
+      - 'position-copyright-7615 33.3'
+      - 'position-copyright-5730 33.3'
+    -
+      - 'position-copyright-4928 100'
+  offcanvas:
+    -
+      - 'mobile-menu-8694 100'
+structure:
+  header:
+    type: section
+    subtype: header
+    attributes:
+      boxed: ''
+      class: ''
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+  showcase:
+    type: section
+    attributes:
+      class: box1
+      boxed: ''
+  mainbar:
+    type: section
+    subtype: main
+  sidebar:
+    type: section
+    subtype: aside
+  container-main:
+    type: section
+    attributes:
+      id: g-main
+      boxed: ''
+  extension:
+    type: section
+    attributes:
+      boxed: ''
+  footer:
+    type: section
+    attributes:
+      boxed: ''
+  copyright:
+    type: section
+    attributes:
+      boxed: ''
+  offcanvas:
+    attributes:
+      boxed: ''
+content:
+  logo-2371:
+    type: particle
+    subtype: logo
+    title: 'Logo / Image'
+    block:
+      class: g-logo-block
+  menu-3709:
+    type: particle
+    subtype: iconmenu
+    title: 'Icon Menu'
+    attributes:
+      enabled: 1
+      class: ''
+      target: _parent
+      items:
+        -
+          icon: 'fa fa-comments'
+          text: 'Blog'
+          link: 'https://blog.dazzlesoftware.org'
+          name: Blog
+        -
+          icon: 'fa fa-book'
+          text: 'Codex'
+          link: 'https://codex.dazzlesoftware.org'
+          name: Codex
+        -
+          icon: 'fa fa-commenting'
+          text: 'Community'
+          link: 'https://community.dazzlesoftware.org'
+          name: Community
+        -
+          icon: 'fa fa-shopping-cart'
+          text: 'Marketplace'
+          link: 'https://marketplace.dazzlesoftware.org'
+          name: Marketplace
+    block:
+      class: flush
+  menu-4987:
+    type: particle
+    subtype: menu
+    title: Menu
+    attributes:
+      enabled: 1
+      menu: ''
+      base: '/'
+      startLevel: 1
+      maxLevels: 0
+      renderTitles: 0
+      hoverExpand: 1
+      mobileTarget: 0
+    block:
+      class: g-menu-block
+  social-2827:
+    type: particle
+    subtype: social
+    title: Social
+    attributes:
+      enabled: 1
+      css:
+        class: 'social-items'
+      title: ''
+      target: _blank
+      display: both
+      items:
+        -
+          icon: 'fa fa-twitter fa-fw'
+          text: ''
+          link: 'http://www.twitter.com/dazzlesoftware'
+          name: Twitter
+        -
+          icon: 'fa fa-facebook fa-fw'
+          text: ''
+          link: 'http://www.facebook.com/dazzlesoftware'
+          name: Facebook
+        -
+          icon: 'fa fa-google-plus fa-fw'
+          text: ''
+          link: 'https://plus.google.com/u/0/106840830150956948495'
+          name: Google+
+  error-4477:
+    type: particle
+    subtype: error
+    title: 'Whooops! Error!'
+    attributes:
+      class: g-layercontent-small
+      title: 'Whooops! Error!'
+      subtitle: 'Looks like something went wrong. Sorry!'
+      readmore: ''
+      link: ''
+    block:
+      class: 'flush center'
+      variations: ''
+  system-content-7076:
+    type: system
+    subtype: content
+    title: 'Page Content'
+    block:
+      id: ''
+      class: nomarginall
+      variations: box2
+  error-4541:
+    type: particle
+    subtype: error
+    title: 'Nothing to See Here'
+    attributes:
+      class: ''
+      title: 'Nothing to See Here'
+      subtitle: 'Please use the navigation above or contact us to find what you are looking for.'
+      readmore: 'Contact Us'
+      link: '#'
+    block:
+      class: 'flush center'
+      variations: 'box1'
+  position-footer-3468:
+      title: "Position - Footer\_Top"
+      attributes:
+        key: footer-top
+      block:
+        id: ''
+        class: ''
+        fixed: ''
+        variations: ''
+  position-footer-8980:
+      title: "Position - Footer\_A"
+      attributes:
+        key: footer-a
+      block:
+        variations: ''
+  position-footer-8721:
+      title: "Position - Footer\_B"
+      attributes:
+        key: footer-b
+      block:
+        variations: ''
+  position-footer-8325:
+      title: "Position - Footer\_C"
+      attributes:
+        key: footer-c
+      block:
+        variations: ''
+  position-footer-7290:
+      title: "Position - Footer\_D"
+      attributes:
+        key: footer-d
+      block:
+        variations: ''
+  position-footer-4360:
+      title: "Position - Footer\_Bottom"
+      attributes:
+        key: footer-bottom
+      block:
+        variations: ''
+  position-copyright-7236:
+      title: "Position - Copyright\_Top"
+      attributes:
+        key: copyright-top
+      block:
+        id: ''
+        class: 'center'
+        fixed: ''
+        variations: ''
+  position-copyright-7911:
+      title: "Position - Copyright\_A"
+      attributes:
+        key: copyright-a
+      block:
+        variations: ''
+  position-copyright-7615:
+      title: "Position - Copyright\_B"
+      attributes:
+        key: copyright-b
+      block:
+        variations: ''
+  position-copyright-5730:
+      title: "Position - Copyright\_C"
+      attributes:
+        key: copyright-c
+      block:
+        variations: ''
+  position-copyright-4928:
+      title: "Position - Copyright\_Bottom"
+      attributes:
+        key: copyright-bottom
+      block:
+        id: ''
+        class: 'center'
+        fixed: ''
+        variations: ''
+  mobile-menu-8694:
+      type: particle
+      subtype: mobile-menu
+      title: 'Mobile Menu'
+      attributes:
+        enabled: 1
+      block:
+        id: ''
+        class: ''
+        variations: ''

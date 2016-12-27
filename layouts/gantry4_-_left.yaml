@@ -1,0 +1,1072 @@
+version: 2
+preset:
+  image: gantry-admin://images/layouts/3-col-left.png
+  name: gantry4_-_left
+  timestamp: 1474265166
+layout:
+  /drawer/:
+    -
+      - 'position-drawer-5167 100'
+  /top/:
+    -
+      - 'position-top-4709 25'
+      - 'position-top-4276 25'
+      - 'position-top-1366 25'
+      - 'position-top-7867 25'
+  /header/:
+    -
+      - 'position-header-1864 25'
+      - 'position-header-5210 25'
+      - 'position-header-1025 25'
+      - 'position-header-7153 25'
+  /showcase/:
+    -
+      - 'position-showcase-8163 25'
+      - 'position-showcase-7319 25'
+      - 'position-showcase-8992 25'
+      - 'position-showcase-2232 25'
+  /social/: {  }
+  /feature/:
+    -
+      - 'position-feature-2594 25'
+      - 'position-feature-1278 25'
+      - 'position-feature-6139 25'
+      - 'position-feature-7375 25'
+  /utility/:
+    -
+      - 'position-utility-7255 25'
+      - 'position-utility-4918 25'
+      - 'position-utility-3220 25'
+      - 'position-utility-8686 25'
+  /breadcrumb/:
+    -
+      - position-breadcrumb-9302
+  /maintop/:
+    -
+      - 'position-maintop-4108 25'
+      - 'position-maintop-7470 25'
+      - 'position-maintop-1266 25'
+      - 'position-maintop-9888 25'
+  /container/:
+    -
+      -
+        'sidebar-a 20':
+          -
+            - 'position-sidebar-9887 100'
+      -
+        'sidebar-b 20':
+          -
+            - 'position-sidebar-7283 100'
+      -
+        'content-top 60':
+          -
+            - 'position-content-top-7729 33.3'
+            - 'position-content-top-6862 33.3'
+            - 'position-content-top-3192 33.3'
+        'mainbody 60':
+          -
+            - 'system-content-7076 100'
+        'content-bottom 60':
+          -
+            - 'position-content-bottom-4423 33.3'
+            - 'position-content-bottom-3246 33.3'
+            - 'position-content-bottom-2967 33.3'
+  /mainbottom/:
+    -
+      - 'position-mainbottom-8581 25'
+      - 'position-mainbottom-4597 25'
+      - 'position-mainbottom-9871 25'
+      - 'position-mainbottom-5233 25'
+  /extension/:
+    -
+      - 'position-extension-2509 25'
+      - 'position-extension-3659 25'
+      - 'position-extension-3840 25'
+      - 'position-extension-2974 25'
+  /bottom/:
+    -
+      - 'position-bottom-7190 25'
+      - 'position-bottom-1071 25'
+      - 'position-bottom-1375 25'
+      - 'position-bottom-5510 25'
+  /footer/:
+    -
+      - 'position-footer-2440 25'
+      - 'position-footer-1419 25'
+      - 'position-footer-6890 25'
+      - 'position-footer-6686 25'
+  /copyright/:
+    -
+      - 'position-copyright-4650 25'
+      - 'position-copyright-9783 25'
+      - 'position-copyright-8414 25'
+      - 'position-copyright-6392 25'
+  offcanvas:
+    -
+      - 'mobile-menu-8694 100'
+structure:
+  drawer:
+    type: section
+    title: "Drawer"
+    attributes:
+      boxed: ''
+      class: 'g-drawer'
+      extra: ''
+  top:
+    type: section
+    title: "Top"
+    attributes:
+      boxed: ''
+      class: 'g-top'
+      extra: ''
+  header:
+    type: section
+    subtype: header
+    title: "Header"
+    attributes:
+      boxed: ''
+      class: 'g-header'
+      extra: ''
+  showcase:
+    type: section
+    title: "Showcase"
+    attributes:
+      boxed: ''
+      class: 'g-showcase'
+      extra: ''
+  social:
+    type: section
+    title: "Social"
+    attributes:
+      boxed: ''
+      class: 'g-social'
+      extra: ''
+  feature:
+    type: section
+    title: "Feature"
+    attributes:
+      boxed: ''
+      class: 'g-feature'
+      extra: ''
+  utility:
+    type: section
+    title: "Utility"
+    attributes:
+      boxed: ''
+      class: 'g-utility'
+      extra: ''
+  breadcrumb:
+    type: section
+    title: "Breadcrumb"
+    attributes:
+      boxed: ''
+      class: 'g-breadcrumb'
+      extra: ''
+  maintop:
+    type: section
+    title: "Main Top"
+    attributes:
+      boxed: ''
+      class: 'g-maintop'
+      extra: ''
+  container:
+    type: section
+    title: "Main Container"
+    attributes:
+      boxed: ''
+      class: ''
+      extra: ''
+  content-top:
+    type: section
+    subtype: main
+    title: "Content Top"
+    attributes:
+      boxed: ''
+      class: 'g-content-top'
+      extra: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '60'
+  mainbody:
+    type: section
+    subtype: main
+    title: "Main Body"
+    attributes:
+      boxed: ''
+      class: 'g-mainbody'
+      extra: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '60'
+  content-bottom:
+    type: section
+    subtype: main
+    title: "Content Bottom"
+    attributes:
+      boxed: ''
+      class: 'g-content-bottom'
+      extra: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '60'
+  sidebar-a:
+    type: section
+    subtype: aside
+    title: "Sidebar A"
+    attributes:
+      boxed: ''
+      class: 'g-sidebar-a'
+      extra: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '20'
+  sidebar-b:
+    type: section
+    subtype: aside
+    title: "Sidebar B"
+    attributes:
+      boxed: ''
+      class: 'g-sidebar-b'
+      extra: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '20'
+  mainbottom:
+    type: section
+    title: "Main Bottom"
+    attributes:
+      boxed: ''
+      class: 'g-mainbottom'
+      extra: ''
+  extension:
+    type: section
+    title: "Extension"
+    attributes:
+      boxed: ''
+      class: 'g-extension'
+      extra: ''
+  bottom:
+    type: section
+    title: "Bottom"
+    attributes:
+      boxed: ''
+      class: 'g-bottom'
+      extra: ''
+  footer:
+    type: section
+    title: "Footer"
+    attributes:
+      boxed: ''
+      class: 'g-footer'
+      extra: ''
+  copyright:
+    type: section
+    title: "Copyright"
+    attributes:
+      boxed: ''
+      class: 'g-copyright'
+      extra: ''
+  offcanvas:
+    type: offcanvas
+    attributes:
+      position: g-offcanvas-left
+      class: 'g-offcanvas'
+      extra: {  }
+      swipe: 1
+      css3animation: 1
+content:
+  position-drawer-5167:
+    type: particle
+    subtype: position
+    title: "Position - Drawer"
+    attributes:
+      enabled: 1
+      key: drawer
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-top-4709:
+    type: particle
+    subtype: position
+    title: "Position - Top\_A"
+    attributes:
+      enabled: 1
+      key: top-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-top-4276:
+    type: particle
+    subtype: position
+    title: "Position - Top\_B"
+    attributes:
+      enabled: 1
+      key: top-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-top-1366:
+    type: particle
+    subtype: position
+    title: "Position - Top\_C"
+    attributes:
+      enabled: 1
+      key: top-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-top-7867:
+    type: particle
+    subtype: position
+    title: "Position - Top\_D"
+    attributes:
+      enabled: 1
+      key: top-d
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-header-1864:
+    type: particle
+    subtype: position
+    title: "Position - Header\_A"
+    attributes:
+      enabled: 1
+      key: header-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-header-5210:
+    type: particle
+    subtype: position
+    title: "Position - Header\_B"
+    attributes:
+      enabled: 1
+      key: header-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-header-1025:
+    type: particle
+    subtype: position
+    title: "Position - Header\_C"
+    attributes:
+      enabled: 1
+      key: header-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-header-7153:
+    type: particle
+    subtype: position
+    title: "Position - Header\_D"
+    attributes:
+      enabled: 1
+      key: header-d
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-showcase-8163:
+    type: particle
+    subtype: position
+    title: "Position - Showcase\_A"
+    attributes:
+      enabled: 1
+      key: showcase-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-showcase-7319:
+    type: particle
+    subtype: position
+    title: "Position - Showcase\_B"
+    attributes:
+      enabled: 1
+      key: showcase-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-showcase-8992:
+    type: particle
+    subtype: position
+    title: "Position - Showcase\_C"
+    attributes:
+      enabled: 1
+      key: showcase-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-showcase-2232:
+    type: particle
+    subtype: position
+    title: "Position - Showcase\_D"
+    attributes:
+      enabled: 1
+      key: showcase-d
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-feature-2594:
+    type: particle
+    subtype: position
+    title: "Position - Feature\_A"
+    attributes:
+      enabled: 1
+      key: feature-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-feature-1278:
+    type: particle
+    subtype: position
+    title: "Position - Feature\_B"
+    attributes:
+      enabled: 1
+      key: feature-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-feature-6139:
+    type: particle
+    subtype: position
+    title: "Position - Feature\_C"
+    attributes:
+      enabled: 1
+      key: feature-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-feature-7375:
+    type: particle
+    subtype: position
+    title: "Position - Feature\_D"
+    attributes:
+      enabled: 1
+      key: feature-d
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-utility-7255:
+    type: particle
+    subtype: position
+    title: "Position - Utility\_A"
+    attributes:
+      enabled: 1
+      key: utility-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-utility-4918:
+    type: particle
+    subtype: position
+    title: "Position - Utility\_B"
+    attributes:
+      enabled: 1
+      key: utility-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-utility-3220:
+    type: particle
+    subtype: position
+    title: "Position - Utility\_C"
+    attributes:
+      enabled: 1
+      key: utility-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-utility-8686:
+    type: particle
+    subtype: position
+    title: "Position - Utility\_D"
+    attributes:
+      enabled: 1
+      key: utility-d
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-breadcrumb-9302:
+    type: particle
+    subtype: position
+    title: "Position - Breadcrumb"
+    attributes:
+      enabled: 1
+      key: breadcrumb
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-maintop-4108:
+    type: particle
+    subtype: position
+    title: "Position - MainTop\_A"
+    attributes:
+      enabled: 1
+      key: maintop-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-maintop-7470:
+    type: particle
+    subtype: position
+    title: "Position - MainTop\_B"
+    attributes:
+      enabled: 1
+      key: maintop-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-maintop-1266:
+    type: particle
+    subtype: position
+    title: "Position - MainTop\_C"
+    attributes:
+      enabled: 1
+      key: maintop-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-maintop-9888:
+    type: particle
+    subtype: position
+    title: "Position - MainTop\_D"
+    attributes:
+      enabled: 1
+      key: maintop-d
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-content-top-7729:
+    type: particle
+    subtype: position
+    title: "Position - Content\_Top\_A"
+    attributes:
+      enabled: 1
+      key: content-top-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '33.3'
+  position-content-top-6862:
+    type: particle
+    subtype: position
+    title: "Position - Content\_Top\_B"
+    attributes:
+      enabled: 1
+      key: content-top-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '33.3'
+  position-content-top-3192:
+    type: particle
+    subtype: position
+    title: "Position - Content\_Top\_C"
+    attributes:
+      enabled: 1
+      key: content-top-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '33.3'
+  system-content-7076:
+    type: system
+    subtype: content
+    title: 'Page Content'
+    attributes:
+      enabled: 1
+    block:
+      id: ''
+      class: nomarginall
+      variations: box2
+      fixed: ''
+      size: '100'
+  position-content-bottom-4423:
+    type: particle
+    subtype: position
+    title: "Position - Content\_Bottom\_A"
+    attributes:
+      enabled: 1
+      key: content-bottom-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '33.3'
+  position-content-bottom-3246:
+    type: particle
+    subtype: position
+    title: "Position - Content\_Bottom\_B"
+    attributes:
+      enabled: 1
+      key: content-bottom-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '33.3'
+  position-content-bottom-2967:
+    type: particle
+    subtype: position
+    title: "Position - Content\_Bottom\_C"
+    attributes:
+      enabled: 1
+      key: content-bottom-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '33.3'
+  position-sidebar-9887:
+    type: particle
+    subtype: position
+    title: "Position - Sidebar\_A"
+    attributes:
+      enabled: 1
+      key: sidebar-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-sidebar-7283:
+    type: particle
+    subtype: position
+    title: "Position - Sidebar\_B"
+    attributes:
+      enabled: 1
+      key: sidebar-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-mainbottom-8581:
+    type: particle
+    subtype: position
+    title: "Position - MainBottom\_A"
+    attributes:
+      enabled: 1
+      key: mainbottom-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-mainbottom-4597:
+    type: particle
+    subtype: position
+    title: "Position - MainBottom\_B"
+    attributes:
+      enabled: 1
+      key: mainbottom-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-mainbottom-9871:
+    type: particle
+    subtype: position
+    title: "Position - MainBottom\_C"
+    attributes:
+      enabled: 1
+      key: mainbottom-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-mainbottom-5233:
+    type: particle
+    subtype: position
+    title: "Position - MainBottom\_D"
+    attributes:
+      enabled: 1
+      key: mainbottom-d
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-extension-2509:
+    type: particle
+    subtype: position
+    title: "Position - Extension\_A"
+    attributes:
+      enabled: 1
+      key: extension-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-extension-3659:
+    type: particle
+    subtype: position
+    title: "Position - Extension\_B"
+    attributes:
+      enabled: 1
+      key: extension-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-extension-3840:
+    type: particle
+    subtype: position
+    title: "Position - Extension\_C"
+    attributes:
+      enabled: 1
+      key: extension-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-extension-2974:
+    type: particle
+    subtype: position
+    title: "Position - Extension\_D"
+    attributes:
+      enabled: 1
+      key: extension-d
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-bottom-7190:
+    type: particle
+    subtype: position
+    title: "Position - Bottom\_A"
+    attributes:
+      enabled: 1
+      key: bottom-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-bottom-1071:
+    type: particle
+    subtype: position
+    title: "Position - Bottom\_B"
+    attributes:
+      enabled: 1
+      key: bottom-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-bottom-1375:
+    type: particle
+    subtype: position
+    title: "Position - Bottom\_C"
+    attributes:
+      enabled: 1
+      key: bottom-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-bottom-5510:
+    type: particle
+    subtype: position
+    title: "Position - Bottom\_D"
+    attributes:
+      enabled: 1
+      key: bottom-d
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-footer-2440:
+    type: particle
+    subtype: position
+    title: "Position - Footer\_A"
+    attributes:
+      enabled: 1
+      key: footer-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-footer-1419:
+    type: particle
+    subtype: position
+    title: "Position - Footer\_B"
+    attributes:
+      enabled: 1
+      key: footer-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-footer-6890:
+    type: particle
+    subtype: position
+    title: "Position - Footer\_C"
+    attributes:
+      enabled: 1
+      key: footer-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-footer-6686:
+    type: particle
+    subtype: position
+    title: "Position - Footer\_D"
+    attributes:
+      enabled: 1
+      key: footer-d
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-copyright-4650:
+    type: particle
+    subtype: position
+    title: "Position - Copyright\_A"
+    attributes:
+      enabled: 1
+      key: copyright-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-copyright-9783:
+    type: particle
+    subtype: position
+    title: "Position - Copyright\_B"
+    attributes:
+      enabled: 1
+      key: copyright-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-copyright-8414:
+    type: particle
+    subtype: position
+    title: "Position - Copyright\_C"
+    attributes:
+      enabled: 1
+      key: copyright-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-copyright-6392:
+    type: particle
+    subtype: position
+    title: "Position - Copyright\_D"
+    attributes:
+      enabled: 1
+      key: copyright-d
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  mobile-menu-8694:
+    type: particle
+    subtype: mobile-menu
+    title: 'Mobile Menu'
+    attributes:
+      enabled: 1
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'

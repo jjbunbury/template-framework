@@ -1,0 +1,574 @@
+version: 2
+preset:
+  image: gantry-admin://images/layouts/2-col-right.png
+  name: 2_column_-_right
+  timestamp: 1474265166
+layout:
+  /header/:
+    -
+      - 'system-messages-8489 100'
+    -
+      - 'logo-2371 56'
+      - 'menu-3709 44'
+  /navigation/:
+    -
+      - 'menu-4987 80'
+      - 'social-2827 20'
+  /showcase/:
+    -
+      - 'position-showcase-6084 100'
+    -
+      - 'position-showcase-3677 33.3'
+      - 'position-showcase-7689 33.3'
+      - 'position-showcase-1657 33.3'
+    -
+      - 'position-showcase-3616 100'
+  /container/:
+    -
+      -
+        'mainbar 80':
+          -
+            - 'system-content-7076 100'
+      -
+        'sidebar 20':
+          -
+            - 'position-sidebar-9979 100'
+  /extension/:
+    -
+      - 'position-extension-6976 100'
+    -
+      - 'position-extension-8215 33.3'
+      - 'position-extension-7420 33.3'
+      - 'position-extension-3240 33.3'
+    -
+      - 'position-extension-4690 100'
+  /footer/:
+    -
+      - 'position-footer-3468 100'
+    -
+      - 'position-footer-8980 25'
+      - 'position-footer-8721 25'
+      - 'position-footer-8325 25'
+      - 'position-footer-7290 25'
+    -
+      - 'position-footer-4360 100'
+  /copyright/:
+    -
+      - 'position-copyright-7236 100'
+    -
+      - 'position-copyright-7911 33.3'
+      - 'position-copyright-7615 33.3'
+      - 'position-copyright-5730 33.3'
+    -
+      - 'position-copyright-4928 100'
+  offcanvas:
+    -
+      - 'mobile-menu-8694 100'
+structure:
+  header:
+    type: section
+    subtype: header
+    attributes:
+      boxed: ''
+      class: ''
+  navigation:
+    type: section
+    subtype: nav
+    attributes:
+      boxed: ''
+  showcase:
+    type: section
+    attributes:
+      class: box1
+      boxed: ''
+  mainbar:
+    type: section
+    subtype: main
+    class: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '67'
+  sidebar:
+    type: section
+    subtype: aside
+    class: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '33'
+  container:
+    type: section
+    attributes:
+      id: g-main
+      boxed: ''
+  extension:
+    type: section
+    attributes:
+      boxed: ''
+  footer:
+    type: section
+    attributes:
+      boxed: ''
+  copyright:
+    type: section
+    attributes:
+      boxed: ''
+  offcanvas:
+    type: offcanvas
+    attributes:
+      boxed: ''
+content:
+  system-messages-8489:
+    type: system
+    subtype: messages
+    title: 'System Messages'
+    attributes:
+      enabled: 1
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  logo-2371:
+    type: particle
+    subtype: logo
+    title: 'Logo / Image'
+    attributes:
+      enabled: 1
+      url: ''
+      image: ''
+      link: true
+      svg: ''
+      text: ''
+      class: ''
+    block:
+      id: ''
+      class: g-logo-block
+      variations: ''
+      fixed: ''
+      size: '56'
+  menu-3709:
+    type: particle
+    subtype: iconmenu
+    title: 'Icon Menu'
+    attributes:
+      enabled: 1
+      class: ''
+      target: _parent
+      items:
+        -
+          icon: 'fa fa-comments'
+          text: 'Blog'
+          link: 'https://blog.dazzlesoftware.org'
+          name: Blog
+        -
+          icon: 'fa fa-book'
+          text: 'Codex'
+          link: 'https://codex.dazzlesoftware.org'
+          name: Codex
+        -
+          icon: 'fa fa-commenting'
+          text: 'Community'
+          link: 'https://community.dazzlesoftware.org'
+          name: Community
+        -
+          icon: 'fa fa-shopping-cart'
+          text: 'Marketplace'
+          link: 'https://marketplace.dazzlesoftware.org'
+          name: Marketplace
+    block:
+      id: ''
+      class: flush
+      variations: ''
+      fixed: ''
+      size: '44'
+  menu-4987:
+    type: particle
+    subtype: menu
+    title: Menu
+    attributes:
+      enabled: 1
+      menu: ''
+      base: '/'
+      startLevel: 1
+      maxLevels: 0
+      renderTitles: 0
+      hoverExpand: 1
+      mobileTarget: 0
+    block:
+      id: ''
+      class: g-menu-block
+      variations: ''
+      fixed: ''
+      size: '80'
+  social-2827:
+    type: particle
+    subtype: social
+    title: Social
+    attributes:
+      enabled: 1
+      css:
+        class: 'social-items'
+      title: ''
+      target: _blank
+      display: both
+      items:
+        -
+          icon: 'fa fa-twitter fa-fw'
+          text: ''
+          link: 'http://www.twitter.com/dazzlesoftware'
+          name: Twitter
+        -
+          icon: 'fa fa-facebook fa-fw'
+          text: ''
+          link: 'http://www.facebook.com/dazzlesoftware'
+          name: Facebook
+        -
+          icon: 'fa fa-google-plus fa-fw'
+          text: ''
+          link: 'https://plus.google.com/u/0/106840830150956948495'
+          name: Google+
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '20'
+  position-showcase-6084:
+    type: particle
+    subtype: position
+    title: "Position - Showcase\_Top"
+    attributes:
+      enabled: 1
+      key: showcase-top
+      chrome: ''
+    block:
+      id: ''
+      class: 'flush'
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-showcase-3677:
+    type: particle
+    subtype: position
+    title: "Position - Showcase\_A"
+    attributes:
+      enabled: 1
+      key: showcase-a
+      chrome: ''
+    block:
+      id: ''
+      class: 'flush'
+      variations: ''
+      fixed: ''
+      size: '33.3'
+  position-showcase-7689:
+    type: particle
+    subtype: position
+    title: "Position - Showcase\_B"
+    attributes:
+      enabled: 1
+      key: showcase-b
+      chrome: ''
+    block:
+      id: ''
+      class: 'flush'
+      variations: ''
+      fixed: ''
+      size: '33.3'
+  position-showcase-1657:
+    type: particle
+    subtype: position
+    title: "Position - Showcase\_C"
+    attributes:
+      enabled: 1
+      key: showcase-c
+      chrome: ''
+    block:
+      id: ''
+      class: 'flush'
+      variations: ''
+      fixed: ''
+      size: '33.3'
+  position-showcase-3616:
+    type: particle
+    subtype: position
+    title: "Position - Showcase\_Bottom"
+    attributes:
+      enabled: 1
+      key: showcase-bottom
+      chrome: ''
+    block:
+      id: ''
+      class: 'flush'
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-sidebar-9979:
+    type: particle
+    subtype: position
+    title: "Position - Container\_Sidebar"
+    attributes:
+      enabled: 1
+      key: container-sidebar
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  system-content-7076:
+    type: system
+    subtype: content
+    title: 'Page Content'
+    attributes:
+      enabled: 1
+    block:
+      id: ''
+      class: nomarginall
+      variations: box2
+      fixed: ''
+      size: '100'
+  position-extension-6976:
+    type: particle
+    subtype: position
+    title: "Position - Extension\_Top"
+    attributes:
+      enabled: 1
+      key: extension-top
+      chrome: ''
+    block:
+      id: ''
+      class: 'center flush'
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-extension-8215:
+    type: particle
+    subtype: position
+    title: "Position - Extension\_A"
+    attributes:
+      enabled: 1
+      key: extension-a
+      chrome: ''
+    block:
+      id: ''
+      class: 'flush'
+      variations: ''
+      fixed: ''
+      size: '33.3'
+  position-extension-7420:
+    type: particle
+    subtype: position
+    title: "Position - Extension\_B"
+    attributes:
+      enabled: 1
+      key: extension-b
+      chrome: ''
+    block:
+      id: ''
+      class: 'flush'
+      variations: ''
+      fixed: ''
+      size: '33.3'
+  position-extension-3240:
+    type: particle
+    subtype: position
+    title: "Position - Extension\_C"
+    attributes:
+      enabled: 1
+      key: extension-c
+      chrome: ''
+    block:
+      id: ''
+      class: 'flush'
+      variations: ''
+      fixed: ''
+      size: '33.3'
+  position-extension-4690:
+    type: particle
+    subtype: position
+    title: "Position - Extension\_Bottom"
+    attributes:
+      enabled: 1
+      key: extension-bottom
+      chrome: ''
+    block:
+      id: ''
+      class: 'center flush'
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-footer-3468:
+    type: particle
+    subtype: position
+    title: "Position - Footer\_Top"
+    attributes:
+      enabled: 1
+      key: footer-top
+      chrome: ''
+    block:
+      id: ''
+      class: 'center flush'
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-footer-8980:
+    type: particle
+    subtype: position
+    title: "Position - Footer\_A"
+    attributes:
+      enabled: 1
+      key: footer-a
+      chrome: ''
+    block:
+      id: ''
+      class: 'flush'
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-footer-8721:
+    type: particle
+    subtype: position
+    title: "Position - Footer\_B"
+    attributes:
+      enabled: 1
+      key: footer-b
+      chrome: ''
+    block:
+      id: ''
+      class: 'flush'
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-footer-8325:
+    type: particle
+    subtype: position
+    title: "Position - Footer\_C"
+    attributes:
+      enabled: 1
+      key: footer-c
+      chrome: ''
+    block:
+      id: ''
+      class: 'flush'
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-footer-7290:
+    type: particle
+    subtype: position
+    title: "Position - Footer\_D"
+    attributes:
+      enabled: 1
+      key: footer-d
+      chrome: ''
+    block:
+      id: ''
+      class: 'flush'
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-footer-4360:
+    type: particle
+    subtype: position
+    title: "Position - Footer\_Bottom"
+    attributes:
+      enabled: 1
+      key: footer-bottom
+      chrome: ''
+    block:
+      id: ''
+      class: 'center flush'
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-copyright-7236:
+    type: particle
+    subtype: position
+    title: "Position - Copyright\_Top"
+    attributes:
+      enabled: 1
+      key: copyright-top
+      chrome: ''
+    block:
+      id: ''
+      class: 'center flush'
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-copyright-7911:
+    type: particle
+    subtype: position
+    title: "Position - Copyright\_A"
+    attributes:
+      enabled: 1
+      key: copyright-a
+      chrome: ''
+    block:
+      id: ''
+      class: 'flush'
+      variations: ''
+      fixed: ''
+      size: '33.3'
+  position-copyright-7615:
+    type: particle
+    subtype: position
+    title: "Position - Copyright\_B"
+    attributes:
+      enabled: 1
+      key: copyright-b
+      chrome: ''
+    block:
+      id: ''
+      class: 'flush'
+      variations: ''
+      fixed: ''
+      size: '33.3'
+  position-copyright-5730:
+    type: particle
+    subtype: position
+    title: "Position - Copyright\_C"
+    attributes:
+      enabled: 1
+      key: copyright-c
+      chrome: ''
+    block:
+      id: ''
+      class: 'flush'
+      variations: ''
+      fixed: ''
+      size: '33.3'
+  position-copyright-4928:
+    type: particle
+    subtype: position
+    title: "Position - Copyright\_Bottom"
+    attributes:
+      enabled: 1
+      key: copyright-bottom
+      chrome: ''
+    block:
+      id: ''
+      class: 'center flush'
+      variations: ''
+      fixed: ''
+      size: '100'
+  mobile-menu-8694:
+    type: particle
+    subtype: mobile-menu
+    title: 'Mobile Menu'
+    attributes:
+      enabled: 1
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'

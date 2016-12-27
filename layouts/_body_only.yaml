@@ -1,0 +1,53 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/body-only.png'
+  name: _body_only
+  timestamp: 1474265166
+layout:
+  /body/:
+    -
+      - 'system-messages-2676 100'
+    -
+      - 'system-content-6097 100'
+  offcanvas: {  }
+structure:
+  body:
+    type: section
+    title: "Body"
+    attributes:
+      boxed: ''
+      class: 'g-body'
+      extra: ''
+  offcanvas:
+    type: offcanvas
+    attributes:
+      position: g-offcanvas-left
+      class: 'g-offcanvas'
+      extra: {  }
+      swipe: 1
+      css3animation: 1
+content:
+  system-messages-2676:
+    type: system
+    subtype: messages
+    title: 'System Messages'
+    attributes:
+      enabled: 1
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  system-content-6097:
+    type: system
+    subtype: content
+    title: 'Page Content'
+    attributes:
+      enabled: 1
+    block:
+      id: ''
+      class: nomarginall
+      variations: box2
+      fixed: ''
+      size: '100'
