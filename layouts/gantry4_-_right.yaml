@@ -55,7 +55,7 @@ layout:
             - 'position-content-top-7729 33.3'
             - 'position-content-top-6862 33.3'
             - 'position-content-top-3192 33.3'
-        'mainbody 60':
+        'body 60':
           -
             - 'system-content-7076 100'
         'content-bottom 60':
@@ -109,95 +109,107 @@ structure:
     type: section
     title: "Drawer"
     attributes:
+      id: g-drawer
+      class: ''
+      extra: {  }
       boxed: ''
-      class: 'g-drawer'
-      extra: ''
   top:
     type: section
     title: "Top"
     attributes:
+      id: g-top
+      class: ''
+      extra: {  }
       boxed: ''
-      class: 'g-top'
-      extra: ''
   header:
     type: section
     subtype: header
     title: "Header"
     attributes:
+      id: g-header
+      class: ''
+      extra: {  }
       boxed: ''
-      class: 'g-header'
-      extra: ''
   showcase:
     type: section
     title: "Showcase"
     attributes:
+      id: g-showcase
+      class: ''
+      extra: {  }
       boxed: ''
-      class: 'g-showcase'
-      extra: ''
   social:
     type: section
     title: "Social"
     attributes:
+      id: g-social
+      class: ''
+      extra: {  }
       boxed: ''
-      class: 'g-social'
-      extra: ''
   feature:
     type: section
     title: "Feature"
     attributes:
+      id: g-feature
+      class: ''
+      extra: {  }
       boxed: ''
-      class: 'g-feature'
-      extra: ''
   utility:
     type: section
     title: "Utility"
     attributes:
+      id: g-utility
+      class: ''
+      extra: {  }
       boxed: ''
-      class: 'g-utility'
-      extra: ''
   breadcrumb:
     type: section
     title: "Breadcrumb"
     attributes:
+      id: g-breadcrumb
+      class: ''
+      extra: {  }
       boxed: ''
-      class: 'g-breadcrumb'
-      extra: ''
   maintop:
     type: section
     title: "Main Top"
     attributes:
+      id: g-maintop
+      class: ''
+      extra: {  }
       boxed: ''
-      class: 'g-maintop'
-      extra: ''
   container:
     type: section
-    title: "Main Container"
+    title: "Container"
     attributes:
-      boxed: ''
+      id: g-main
       class: ''
-      extra: ''
+      extra: {  }
+      boxed: ''
   content-top:
     type: section
     subtype: main
     title: "Content Top"
     attributes:
+      id: g-content-top
+      class: ''
+      extra: {  }
       boxed: ''
-      class: 'g-content-top'
-      extra: ''
     block:
       id: ''
       class: ''
       variations: ''
       fixed: ''
       size: '60'
-  mainbody:
+  body:
     type: section
     subtype: main
-    title: "Main Body"
+    title: "Content Body"
     attributes:
+      id: g-body
+      class: ''
+      extra: {  }
       boxed: ''
-      class: 'g-mainbody'
-      extra: ''
     block:
       id: ''
       class: ''
@@ -209,9 +221,10 @@ structure:
     subtype: main
     title: "Content Bottom"
     attributes:
+      id: g-content-bottom
+      class: ''
+      extra: {  }
       boxed: ''
-      class: 'g-content-bottom'
-      extra: ''
     block:
       id: ''
       class: ''
@@ -223,9 +236,10 @@ structure:
     subtype: aside
     title: "Sidebar A"
     attributes:
+      id: g-sidebar-a
+      class: ''
+      extra: {  }
       boxed: ''
-      class: 'g-sidebar-a'
-      extra: ''
     block:
       id: ''
       class: ''
@@ -237,9 +251,10 @@ structure:
     subtype: aside
     title: "Sidebar B"
     attributes:
+      id: g-sidebar-b
+      class: ''
+      extra: {  }
       boxed: ''
-      class: 'g-sidebar-b'
-      extra: ''
     block:
       id: ''
       class: ''
@@ -250,43 +265,50 @@ structure:
     type: section
     title: "Main Bottom"
     attributes:
+      id: g-mainbottom
+      class: ''
+      extra: {  }
       boxed: ''
-      class: 'g-mainbottom'
-      extra: ''
   extension:
     type: section
     title: "Extension"
     attributes:
+      id: g-extension
+      class: ''
+      extra: {  }
       boxed: ''
-      class: 'g-extension'
-      extra: ''
   bottom:
     type: section
     title: "Bottom"
     attributes:
+      id: g-bottom
+      class: ''
+      extra: {  }
       boxed: ''
-      class: 'g-bottom'
-      extra: ''
   footer:
     type: section
     title: "Footer"
     attributes:
+      id: g-footer
+      class: ''
+      extra: {  }
       boxed: ''
-      class: 'g-footer'
-      extra: ''
   copyright:
     type: section
     title: "Copyright"
     attributes:
+      id: g-copyright
+      class: ''
+      extra: {  }
       boxed: ''
-      class: 'g-copyright'
-      extra: ''
   offcanvas:
     type: offcanvas
     attributes:
-      position: g-offcanvas-left
-      class: 'g-offcanvas'
+      id: g-offcanvas
+      class: ''
       extra: {  }
+      boxed: ''
+      position: g-offcanvas-left
       swipe: 1
       css3animation: 1
 content:
@@ -295,7 +317,7 @@ content:
     subtype: position
     title: "Position - Drawer"
     attributes:
-      enabled: 1
+      enabled: true
       key: drawer
       chrome: ''
     block:
@@ -309,7 +331,7 @@ content:
     subtype: position
     title: "Position - Top\_A"
     attributes:
-      enabled: 1
+      enabled: true
       key: top-a
       chrome: ''
     block:
@@ -323,7 +345,7 @@ content:
     subtype: position
     title: "Position - Top\_B"
     attributes:
-      enabled: 1
+      enabled: true
       key: top-b
       chrome: ''
     block:
@@ -337,7 +359,7 @@ content:
     subtype: position
     title: "Position - Top\_C"
     attributes:
-      enabled: 1
+      enabled: true
       key: top-c
       chrome: ''
     block:
@@ -351,7 +373,7 @@ content:
     subtype: position
     title: "Position - Top\_D"
     attributes:
-      enabled: 1
+      enabled: true
       key: top-d
       chrome: ''
     block:
@@ -365,7 +387,7 @@ content:
     subtype: position
     title: "Position - Header\_A"
     attributes:
-      enabled: 1
+      enabled: true
       key: header-a
       chrome: ''
     block:
@@ -379,7 +401,7 @@ content:
     subtype: position
     title: "Position - Header\_B"
     attributes:
-      enabled: 1
+      enabled: true
       key: header-b
       chrome: ''
     block:
@@ -393,7 +415,7 @@ content:
     subtype: position
     title: "Position - Header\_C"
     attributes:
-      enabled: 1
+      enabled: true
       key: header-c
       chrome: ''
     block:
@@ -407,7 +429,7 @@ content:
     subtype: position
     title: "Position - Header\_D"
     attributes:
-      enabled: 1
+      enabled: true
       key: header-d
       chrome: ''
     block:
@@ -421,7 +443,7 @@ content:
     subtype: position
     title: "Position - Showcase\_A"
     attributes:
-      enabled: 1
+      enabled: true
       key: showcase-a
       chrome: ''
     block:
@@ -435,7 +457,7 @@ content:
     subtype: position
     title: "Position - Showcase\_B"
     attributes:
-      enabled: 1
+      enabled: true
       key: showcase-b
       chrome: ''
     block:
@@ -449,7 +471,7 @@ content:
     subtype: position
     title: "Position - Showcase\_C"
     attributes:
-      enabled: 1
+      enabled: true
       key: showcase-c
       chrome: ''
     block:
@@ -463,7 +485,7 @@ content:
     subtype: position
     title: "Position - Showcase\_D"
     attributes:
-      enabled: 1
+      enabled: true
       key: showcase-d
       chrome: ''
     block:
@@ -477,7 +499,7 @@ content:
     subtype: position
     title: "Position - Feature\_A"
     attributes:
-      enabled: 1
+      enabled: true
       key: feature-a
       chrome: ''
     block:
@@ -491,7 +513,7 @@ content:
     subtype: position
     title: "Position - Feature\_B"
     attributes:
-      enabled: 1
+      enabled: true
       key: feature-b
       chrome: ''
     block:
@@ -505,7 +527,7 @@ content:
     subtype: position
     title: "Position - Feature\_C"
     attributes:
-      enabled: 1
+      enabled: true
       key: feature-c
       chrome: ''
     block:
@@ -519,7 +541,7 @@ content:
     subtype: position
     title: "Position - Feature\_D"
     attributes:
-      enabled: 1
+      enabled: true
       key: feature-d
       chrome: ''
     block:
@@ -533,7 +555,7 @@ content:
     subtype: position
     title: "Position - Utility\_A"
     attributes:
-      enabled: 1
+      enabled: true
       key: utility-a
       chrome: ''
     block:
@@ -547,7 +569,7 @@ content:
     subtype: position
     title: "Position - Utility\_B"
     attributes:
-      enabled: 1
+      enabled: true
       key: utility-b
       chrome: ''
     block:
@@ -561,7 +583,7 @@ content:
     subtype: position
     title: "Position - Utility\_C"
     attributes:
-      enabled: 1
+      enabled: true
       key: utility-c
       chrome: ''
     block:
@@ -575,7 +597,7 @@ content:
     subtype: position
     title: "Position - Utility\_D"
     attributes:
-      enabled: 1
+      enabled: true
       key: utility-d
       chrome: ''
     block:
@@ -589,7 +611,7 @@ content:
     subtype: position
     title: "Position - Breadcrumb"
     attributes:
-      enabled: 1
+      enabled: true
       key: breadcrumb
       chrome: ''
     block:
@@ -603,7 +625,7 @@ content:
     subtype: position
     title: "Position - MainTop\_A"
     attributes:
-      enabled: 1
+      enabled: true
       key: maintop-a
       chrome: ''
     block:
@@ -617,7 +639,7 @@ content:
     subtype: position
     title: "Position - MainTop\_B"
     attributes:
-      enabled: 1
+      enabled: true
       key: maintop-b
       chrome: ''
     block:
@@ -631,7 +653,7 @@ content:
     subtype: position
     title: "Position - MainTop\_C"
     attributes:
-      enabled: 1
+      enabled: true
       key: maintop-c
       chrome: ''
     block:
@@ -645,7 +667,7 @@ content:
     subtype: position
     title: "Position - MainTop\_D"
     attributes:
-      enabled: 1
+      enabled: true
       key: maintop-d
       chrome: ''
     block:
@@ -659,7 +681,7 @@ content:
     subtype: position
     title: "Position - Content\_Top\_A"
     attributes:
-      enabled: 1
+      enabled: true
       key: content-top-a
       chrome: ''
     block:
@@ -673,7 +695,7 @@ content:
     subtype: position
     title: "Position - Content\_Top\_B"
     attributes:
-      enabled: 1
+      enabled: true
       key: content-top-b
       chrome: ''
     block:
@@ -687,7 +709,7 @@ content:
     subtype: position
     title: "Position - Content\_Top\_C"
     attributes:
-      enabled: 1
+      enabled: true
       key: content-top-c
       chrome: ''
     block:
@@ -701,7 +723,7 @@ content:
     subtype: content
     title: 'Page Content'
     attributes:
-      enabled: 1
+      enabled: true
     block:
       id: ''
       class: nomarginall
@@ -713,7 +735,7 @@ content:
     subtype: position
     title: "Position - Content\_Bottom\_A"
     attributes:
-      enabled: 1
+      enabled: true
       key: content-bottom-a
       chrome: ''
     block:
@@ -727,7 +749,7 @@ content:
     subtype: position
     title: "Position - Content\_Bottom\_B"
     attributes:
-      enabled: 1
+      enabled: true
       key: content-bottom-b
       chrome: ''
     block:
@@ -741,7 +763,7 @@ content:
     subtype: position
     title: "Position - Content\_Bottom\_C"
     attributes:
-      enabled: 1
+      enabled: true
       key: content-bottom-c
       chrome: ''
     block:
@@ -755,7 +777,7 @@ content:
     subtype: position
     title: "Position - Sidebar\_A"
     attributes:
-      enabled: 1
+      enabled: true
       key: sidebar-a
       chrome: ''
     block:
@@ -769,7 +791,7 @@ content:
     subtype: position
     title: "Position - Sidebar\_B"
     attributes:
-      enabled: 1
+      enabled: true
       key: sidebar-b
       chrome: ''
     block:
@@ -783,7 +805,7 @@ content:
     subtype: position
     title: "Position - MainBottom\_A"
     attributes:
-      enabled: 1
+      enabled: true
       key: mainbottom-a
       chrome: ''
     block:
@@ -797,7 +819,7 @@ content:
     subtype: position
     title: "Position - MainBottom\_B"
     attributes:
-      enabled: 1
+      enabled: true
       key: mainbottom-b
       chrome: ''
     block:
@@ -811,7 +833,7 @@ content:
     subtype: position
     title: "Position - MainBottom\_C"
     attributes:
-      enabled: 1
+      enabled: true
       key: mainbottom-c
       chrome: ''
     block:
@@ -825,7 +847,7 @@ content:
     subtype: position
     title: "Position - MainBottom\_D"
     attributes:
-      enabled: 1
+      enabled: true
       key: mainbottom-d
       chrome: ''
     block:
@@ -839,7 +861,7 @@ content:
     subtype: position
     title: "Position - Extension\_A"
     attributes:
-      enabled: 1
+      enabled: true
       key: extension-a
       chrome: ''
     block:
@@ -853,7 +875,7 @@ content:
     subtype: position
     title: "Position - Extension\_B"
     attributes:
-      enabled: 1
+      enabled: true
       key: extension-b
       chrome: ''
     block:
@@ -867,7 +889,7 @@ content:
     subtype: position
     title: "Position - Extension\_C"
     attributes:
-      enabled: 1
+      enabled: true
       key: extension-c
       chrome: ''
     block:
@@ -881,7 +903,7 @@ content:
     subtype: position
     title: "Position - Extension\_D"
     attributes:
-      enabled: 1
+      enabled: true
       key: extension-d
       chrome: ''
     block:
@@ -895,7 +917,7 @@ content:
     subtype: position
     title: "Position - Bottom\_A"
     attributes:
-      enabled: 1
+      enabled: true
       key: bottom-a
       chrome: ''
     block:
@@ -909,7 +931,7 @@ content:
     subtype: position
     title: "Position - Bottom\_B"
     attributes:
-      enabled: 1
+      enabled: true
       key: bottom-b
       chrome: ''
     block:
@@ -923,7 +945,7 @@ content:
     subtype: position
     title: "Position - Bottom\_C"
     attributes:
-      enabled: 1
+      enabled: true
       key: bottom-c
       chrome: ''
     block:
@@ -937,7 +959,7 @@ content:
     subtype: position
     title: "Position - Bottom\_D"
     attributes:
-      enabled: 1
+      enabled: true
       key: bottom-d
       chrome: ''
     block:
@@ -951,7 +973,7 @@ content:
     subtype: position
     title: "Position - Footer\_A"
     attributes:
-      enabled: 1
+      enabled: true
       key: footer-a
       chrome: ''
     block:
@@ -965,7 +987,7 @@ content:
     subtype: position
     title: "Position - Footer\_B"
     attributes:
-      enabled: 1
+      enabled: true
       key: footer-b
       chrome: ''
     block:
@@ -979,7 +1001,7 @@ content:
     subtype: position
     title: "Position - Footer\_C"
     attributes:
-      enabled: 1
+      enabled: true
       key: footer-c
       chrome: ''
     block:
@@ -993,7 +1015,7 @@ content:
     subtype: position
     title: "Position - Footer\_D"
     attributes:
-      enabled: 1
+      enabled: true
       key: footer-d
       chrome: ''
     block:
@@ -1007,7 +1029,7 @@ content:
     subtype: position
     title: "Position - Copyright\_A"
     attributes:
-      enabled: 1
+      enabled: true
       key: copyright-a
       chrome: ''
     block:
@@ -1021,7 +1043,7 @@ content:
     subtype: position
     title: "Position - Copyright\_B"
     attributes:
-      enabled: 1
+      enabled: true
       key: copyright-b
       chrome: ''
     block:
@@ -1035,7 +1057,7 @@ content:
     subtype: position
     title: "Position - Copyright\_C"
     attributes:
-      enabled: 1
+      enabled: true
       key: copyright-c
       chrome: ''
     block:
@@ -1049,7 +1071,7 @@ content:
     subtype: position
     title: "Position - Copyright\_D"
     attributes:
-      enabled: 1
+      enabled: true
       key: copyright-d
       chrome: ''
     block:
@@ -1063,7 +1085,7 @@ content:
     subtype: mobile-menu
     title: 'Mobile Menu'
     attributes:
-      enabled: 1
+      enabled: true
     block:
       id: ''
       class: ''

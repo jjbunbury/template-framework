@@ -21,9 +21,11 @@ structure:
   offcanvas:
     type: offcanvas
     attributes:
-      position: g-offcanvas-left
-      class: 'g-offcanvas'
+      id: g-offcanvas
+      class: ''
       extra: {  }
+      boxed: ''
+      position: g-offcanvas-left
       swipe: 1
       css3animation: 1
 content:
@@ -32,7 +34,7 @@ content:
     subtype: messages
     title: 'System Messages'
     attributes:
-      enabled: 1
+      enabled: true
     block:
       id: ''
       class: ''
@@ -44,7 +46,7 @@ content:
     subtype: content
     title: 'Page Content'
     attributes:
-      enabled: 1
+      enabled: true
     block:
       id: ''
       class: nomarginall

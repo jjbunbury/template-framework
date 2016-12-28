@@ -9,7 +9,7 @@ layout:
       - 'system-messages-8489 100'
     -
       - 'logo-2371 56'
-      - 'menu-3709 44'
+      - 'iconmenu-3709 44'
   /navigation/:
     -
       - 'menu-4987 80'
@@ -34,7 +34,7 @@ layout:
           -
             - 'position-sidebar-right-8305 100'
       -
-        'mainbar 60':
+        'body 60':
           -
             - 'system-content-7076 100'
   /extension/:
@@ -85,7 +85,7 @@ structure:
     attributes:
       class: box1
       boxed: ''
-  mainbar:
+  body:
     type: section
     subtype: main
     class: ''
@@ -135,14 +135,20 @@ structure:
   offcanvas:
     type: offcanvas
     attributes:
+      id: g-offcanvas
+      class: ''
+      extra: {  }
       boxed: ''
+      position: g-offcanvas-left
+      swipe: 1
+      css3animation: 1
 content:
   system-messages-8489:
     type: system
     subtype: messages
     title: 'System Messages'
     attributes:
-      enabled: 1
+      enabled: true
     block:
       id: ''
       class: ''
@@ -154,25 +160,25 @@ content:
     subtype: logo
     title: 'Logo / Image'
     attributes:
-      enabled: 1
+      enabled: true
       url: ''
-      image: ''
+      image: 'gantry-theme://images/logo/callisto.png'
       link: true
       svg: ''
-      text: ''
-      class: ''
+      text: 'Callisto'
+      class: 'g-logo'
     block:
       id: ''
       class: g-logo-block
       variations: ''
       fixed: ''
       size: '56'
-  menu-3709:
+  iconmenu-3709:
     type: particle
     subtype: iconmenu
     title: 'Icon Menu'
     attributes:
-      enabled: 1
+      enabled: true
       class: ''
       target: _parent
       items:
@@ -207,7 +213,7 @@ content:
     subtype: menu
     title: Menu
     attributes:
-      enabled: 1
+      enabled: true
       menu: ''
       base: '/'
       startLevel: 1
@@ -226,7 +232,7 @@ content:
     subtype: social
     title: Social
     attributes:
-      enabled: 1
+      enabled: true
       css:
         class: 'social-items'
       title: ''
@@ -259,7 +265,7 @@ content:
     subtype: position
     title: "Position - Showcase\_Top"
     attributes:
-      enabled: 1
+      enabled: true
       key: showcase-top
       chrome: ''
     block:
@@ -273,7 +279,7 @@ content:
     subtype: position
     title: "Position - Showcase\_A"
     attributes:
-      enabled: 1
+      enabled: true
       key: showcase-a
       chrome: ''
     block:
@@ -287,7 +293,7 @@ content:
     subtype: position
     title: "Position - Showcase\_B"
     attributes:
-      enabled: 1
+      enabled: true
       key: showcase-b
       chrome: ''
     block:
@@ -301,7 +307,7 @@ content:
     subtype: position
     title: "Position - Showcase\_C"
     attributes:
-      enabled: 1
+      enabled: true
       key: showcase-c
       chrome: ''
     block:
@@ -315,7 +321,7 @@ content:
     subtype: position
     title: "Position - Showcase\_Bottom"
     attributes:
-      enabled: 1
+      enabled: true
       key: showcase-bottom
       chrome: ''
     block:
@@ -329,7 +335,7 @@ content:
     subtype: position
     title: "Position - Sidebar\_Left"
     attributes:
-      enabled: 1
+      enabled: true
       key: sidebar-left
       chrome: ''
     block:
@@ -343,7 +349,7 @@ content:
     subtype: position
     title: "Position - Sidebar\_Right"
     attributes:
-      enabled: 1
+      enabled: true
       key: sidebar-right
       chrome: ''
     block:
@@ -357,7 +363,7 @@ content:
     subtype: content
     title: 'Page Content'
     attributes:
-      enabled: 1
+      enabled: true
     block:
       id: ''
       class: nomarginall
@@ -369,7 +375,7 @@ content:
     subtype: position
     title: "Position - Extension\_Top"
     attributes:
-      enabled: 1
+      enabled: true
       key: extension-top
       chrome: ''
     block:
@@ -383,7 +389,7 @@ content:
     subtype: position
     title: "Position - Extension\_A"
     attributes:
-      enabled: 1
+      enabled: true
       key: extension-a
       chrome: ''
     block:
@@ -397,7 +403,7 @@ content:
     subtype: position
     title: "Position - Extension\_B"
     attributes:
-      enabled: 1
+      enabled: true
       key: extension-b
       chrome: ''
     block:
@@ -411,7 +417,7 @@ content:
     subtype: position
     title: "Position - Extension\_C"
     attributes:
-      enabled: 1
+      enabled: true
       key: extension-c
       chrome: ''
     block:
@@ -425,7 +431,7 @@ content:
     subtype: position
     title: "Position - Extension\_Bottom"
     attributes:
-      enabled: 1
+      enabled: true
       key: extension-bottom
       chrome: ''
     block:
@@ -439,7 +445,7 @@ content:
     subtype: position
     title: "Position - Footer\_Top"
     attributes:
-      enabled: 1
+      enabled: true
       key: footer-top
       chrome: ''
     block:
@@ -453,7 +459,7 @@ content:
     subtype: position
     title: "Position - Footer\_A"
     attributes:
-      enabled: 1
+      enabled: true
       key: footer-a
       chrome: ''
     block:
@@ -467,7 +473,7 @@ content:
     subtype: position
     title: "Position - Footer\_B"
     attributes:
-      enabled: 1
+      enabled: true
       key: footer-b
       chrome: ''
     block:
@@ -481,7 +487,7 @@ content:
     subtype: position
     title: "Position - Footer\_C"
     attributes:
-      enabled: 1
+      enabled: true
       key: footer-c
       chrome: ''
     block:
@@ -495,7 +501,7 @@ content:
     subtype: position
     title: "Position - Footer\_D"
     attributes:
-      enabled: 1
+      enabled: true
       key: footer-d
       chrome: ''
     block:
@@ -509,7 +515,7 @@ content:
     subtype: position
     title: "Position - Footer\_Bottom"
     attributes:
-      enabled: 1
+      enabled: true
       key: footer-bottom
       chrome: ''
     block:
@@ -523,7 +529,7 @@ content:
     subtype: position
     title: "Position - Copyright\_Top"
     attributes:
-      enabled: 1
+      enabled: true
       key: copyright-top
       chrome: ''
     block:
@@ -537,7 +543,7 @@ content:
     subtype: position
     title: "Position - Copyright\_A"
     attributes:
-      enabled: 1
+      enabled: true
       key: copyright-a
       chrome: ''
     block:
@@ -551,7 +557,7 @@ content:
     subtype: position
     title: "Position - Copyright\_B"
     attributes:
-      enabled: 1
+      enabled: true
       key: copyright-b
       chrome: ''
     block:
@@ -565,7 +571,7 @@ content:
     subtype: position
     title: "Position - Copyright\_C"
     attributes:
-      enabled: 1
+      enabled: true
       key: copyright-c
       chrome: ''
     block:
@@ -579,7 +585,7 @@ content:
     subtype: position
     title: "Position - Copyright\_Bottom"
     attributes:
-      enabled: 1
+      enabled: true
       key: copyright-bottom
       chrome: ''
     block:
@@ -593,7 +599,7 @@ content:
     subtype: mobile-menu
     title: 'Mobile Menu'
     attributes:
-      enabled: 1
+      enabled: true
     block:
       id: ''
       class: ''

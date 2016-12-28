@@ -16,7 +16,7 @@ layout:
   /container/:
     -
       -
-        'mainbar 67':
+        'body 67':
           -
             - 'system-content-7076 100'
       -
@@ -61,7 +61,7 @@ structure:
     attributes:
       class: box1
       boxed: ''
-  mainbar:
+  body:
     type: section
     subtype: main
     class: ''
@@ -101,14 +101,20 @@ structure:
   offcanvas:
     type: offcanvas
     attributes:
+      id: g-offcanvas
+      class: ''
+      extra: {  }
       boxed: ''
+      position: g-offcanvas-left
+      swipe: 1
+      css3animation: 1
 content:
   system-messages-8489:
     type: system
     subtype: messages
     title: 'System Messages'
     attributes:
-      enabled: 1
+      enabled: true
     block:
       id: ''
       class: ''
@@ -120,13 +126,13 @@ content:
     subtype: logo
     title: 'Logo / Image'
     attributes:
-      enabled: 1
+      enabled: true
       url: ''
-      image: ''
+      image: 'gantry-theme://images/logo/callisto.png'
       link: true
       svg: ''
-      text: ''
-      class: ''
+      text: 'Callisto'
+      class: 'g-logo'
     block:
       id: ''
       class: 'g-logo-block center'
@@ -138,7 +144,7 @@ content:
     subtype: error
     title: 'Offline'
     attributes:
-      enabled: 1
+      enabled: true
       class: g-layercontent-small
       title: 'Offline'
       subtitle: 'Sorry, We are Down for Maintenance'
@@ -155,7 +161,7 @@ content:
     subtype: content
     title: 'Page Content'
     attributes:
-      enabled: 1
+      enabled: true
     block:
       id: ''
       class: nomarginall
@@ -167,7 +173,7 @@ content:
     subtype: error
     title: 'Maintenance Mode'
     attributes:
-      enabled: 1
+      enabled: true
       class: ''
       title: 'Maintenance Mode'
       subtitle: 'Sorry, Our Website is Temporarily Down for Maintenance. Please Check Back Again Soon.'
@@ -184,7 +190,7 @@ content:
     subtype: position
     title: "Position - Footer\_Top"
     attributes:
-      enabled: 1
+      enabled: true
       key: footer-top
       chrome: ''
     block:
@@ -198,7 +204,7 @@ content:
     subtype: position
     title: "Position - Footer\_A"
     attributes:
-      enabled: 1
+      enabled: true
       key: footer-a
       chrome: ''
     block:
@@ -212,7 +218,7 @@ content:
     subtype: position
     title: "Position - Footer\_B"
     attributes:
-      enabled: 1
+      enabled: true
       key: footer-b
       chrome: ''
     block:
@@ -226,7 +232,7 @@ content:
     subtype: position
     title: "Position - Footer\_C"
     attributes:
-      enabled: 1
+      enabled: true
       key: footer-c
       chrome: ''
     block:
@@ -240,7 +246,7 @@ content:
     subtype: position
     title: "Position - Footer\_D"
     attributes:
-      enabled: 1
+      enabled: true
       key: footer-d
       chrome: ''
     block:
@@ -254,7 +260,7 @@ content:
     subtype: position
     title: "Position - Footer\_Bottom"
     attributes:
-      enabled: 1
+      enabled: true
       key: footer-bottom
       chrome: ''
     block:
@@ -268,7 +274,7 @@ content:
     subtype: position
     title: "Position - Copyright\_Top"
     attributes:
-      enabled: 1
+      enabled: true
       key: copyright-top
       chrome: ''
     block:
@@ -282,7 +288,7 @@ content:
     subtype: position
     title: "Position - Copyright\_A"
     attributes:
-      enabled: 1
+      enabled: true
       key: copyright-a
       chrome: ''
     block:
@@ -296,7 +302,7 @@ content:
     subtype: position
     title: "Position - Copyright\_B"
     attributes:
-      enabled: 1
+      enabled: true
       key: copyright-b
       chrome: ''
     block:
@@ -310,7 +316,7 @@ content:
     subtype: position
     title: "Position - Copyright\_C"
     attributes:
-      enabled: 1
+      enabled: true
       key: copyright-c
       chrome: ''
     block:
@@ -324,7 +330,7 @@ content:
     subtype: position
     title: "Position - Copyright\_Bottom"
     attributes:
-      enabled: 1
+      enabled: true
       key: copyright-bottom
       chrome: ''
     block:

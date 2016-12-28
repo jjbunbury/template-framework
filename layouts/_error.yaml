@@ -7,7 +7,7 @@ layout:
   /header/:
     -
       - 'logo-2371 56'
-      - 'menu-3709 44'
+      - 'iconiconmenu-3709 44'
   /navigation/:
     -
       - 'menu-4987 80'
@@ -18,7 +18,7 @@ layout:
   /container/:
     -
       -
-        'mainbar 67':
+        'body 67':
           -
             - 'system-content-7076 100'
       -
@@ -56,7 +56,7 @@ structure:
     attributes:
       id: g-header
       class: ''
-      extra: ''
+      extra: {  }
       boxed: ''
   navigation:
     type: section
@@ -64,7 +64,7 @@ structure:
     attributes:
       id: g-navigation
       class: ''
-      extra: ''
+      extra: {  }
       boxed: ''
   showcase:
     type: section
@@ -72,16 +72,16 @@ structure:
     attributes:
       id: g-showcase
       class: 'box1'
-      extra: ''
+      extra: {  }
       boxed: ''
-  mainbar:
+  body:
     type: section
     subtype: main
     title: 'Body'
     attributes:
       id: g-body
       class: ''
-      extra: ''
+      extra: {  }
       boxed: ''
   sidebar:
     type: section
@@ -90,7 +90,7 @@ structure:
     attributes:
       id: g-sidebar
       class: ''
-      extra: ''
+      extra: {  }
       boxed: ''
   container:
     type: section
@@ -98,7 +98,7 @@ structure:
     attributes:
       id: g-main
       class: ''
-      extra: ''
+      extra: {  }
       boxed: ''
   extension:
     type: section
@@ -106,7 +106,7 @@ structure:
     attributes:
       id: g-extension
       class: ''
-      extra: ''
+      extra: {  }
       boxed: ''
   footer:
     type: section
@@ -114,7 +114,7 @@ structure:
     attributes:
       id: g-footer
       class: ''
-      extra: ''
+      extra: {  }
       boxed: ''
   copyright:
     type: section
@@ -122,7 +122,7 @@ structure:
     attributes:
       id: g-copyright
       class: ''
-      extra: ''
+      extra: {  }
       boxed: ''
   offcanvas:
     type: offcanvas
@@ -153,12 +153,12 @@ content:
       variations: ''
       fixed: ''
       size: '56'
-  menu-3709:
+  iconiconmenu-3709:
     type: particle
     subtype: iconmenu
     title: 'Icon Menu'
     attributes:
-      enabled: 1
+      enabled: true
       class: ''
       target: _parent
       items:
@@ -193,7 +193,7 @@ content:
     subtype: menu
     title: Menu
     attributes:
-      enabled: 1
+      enabled: true
       menu: ''
       base: '/'
       startLevel: 1
@@ -212,7 +212,7 @@ content:
     subtype: social
     title: Social
     attributes:
-      enabled: 1
+      enabled: true
       css:
         class: 'social-items'
       title: ''
@@ -245,7 +245,7 @@ content:
     subtype: error
     title: 'Whooops! Error!'
     attributes:
-      enabled: 1
+      enabled: true
       class: g-layercontent-small
       title: 'Whooops! Error!'
       subtitle: 'Looks like something went wrong. Sorry!'
@@ -262,7 +262,7 @@ content:
     subtype: content
     title: 'Page Content'
     attributes:
-      enabled: 1
+      enabled: true
     block:
       id: ''
       class: nomarginall
@@ -274,7 +274,7 @@ content:
     subtype: error
     title: 'Nothing to See Here'
     attributes:
-      enabled: 1
+      enabled: true
       class: ''
       title: 'Nothing to See Here'
       subtitle: 'Please use the navigation above or contact us to find what you are looking for.'
@@ -291,7 +291,7 @@ content:
     subtype: position
     title: "Position - Footer\_Top"
     attributes:
-      enabled: 1
+      enabled: true
       key: footer-top
       chrome: ''
     block:
@@ -305,7 +305,7 @@ content:
     subtype: position
     title: "Position - Footer\_A"
     attributes:
-      enabled: 1
+      enabled: true
       key: footer-a
       chrome: ''
     block:
@@ -319,7 +319,7 @@ content:
     subtype: position
     title: "Position - Footer\_B"
     attributes:
-      enabled: 1
+      enabled: true
       key: footer-b
       chrome: ''
     block:
@@ -333,7 +333,7 @@ content:
     subtype: position
     title: "Position - Footer\_C"
     attributes:
-      enabled: 1
+      enabled: true
       key: footer-c
       chrome: ''
     block:
@@ -347,7 +347,7 @@ content:
     subtype: position
     title: "Position - Footer\_D"
     attributes:
-      enabled: 1
+      enabled: true
       key: footer-d
       chrome: ''
     block:
@@ -361,7 +361,7 @@ content:
     subtype: position
     title: "Position - Footer\_Bottom"
     attributes:
-      enabled: 1
+      enabled: true
       key: footer-bottom
       chrome: ''
     block:
@@ -375,7 +375,7 @@ content:
     subtype: position
     title: "Position - Copyright\_Top"
     attributes:
-      enabled: 1
+      enabled: true
       key: copyright-top
       chrome: ''
     block:
@@ -389,7 +389,7 @@ content:
     subtype: position
     title: "Position - Copyright\_A"
     attributes:
-      enabled: 1
+      enabled: true
       key: copyright-a
       chrome: ''
     block:
@@ -403,7 +403,7 @@ content:
     subtype: position
     title: "Position - Copyright\_B"
     attributes:
-      enabled: 1
+      enabled: true
       key: copyright-b
       chrome: ''
     block:
@@ -417,7 +417,7 @@ content:
     subtype: position
     title: "Position - Copyright\_C"
     attributes:
-      enabled: 1
+      enabled: true
       key: copyright-c
       chrome: ''
     block:
@@ -431,7 +431,7 @@ content:
     subtype: position
     title: "Position - Copyright\_Bottom"
     attributes:
-      enabled: 1
+      enabled: true
       key: copyright-bottom
       chrome: ''
     block:
@@ -445,7 +445,7 @@ content:
     subtype: mobile-menu
     title: 'Mobile Menu'
     attributes:
-      enabled: 1
+      enabled: true
     block:
       id: ''
       class: ''
