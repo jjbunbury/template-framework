@@ -107,7 +107,7 @@ layout:
 structure:
   drawer:
     type: section
-    title: "Drawer"
+    title: 'Drawer'
     attributes:
       id: g-drawer
       class: ''
@@ -115,7 +115,7 @@ structure:
       boxed: ''
   top:
     type: section
-    title: "Top"
+    title: 'Top'
     attributes:
       id: g-top
       class: ''
@@ -124,7 +124,7 @@ structure:
   header:
     type: section
     subtype: header
-    title: "Header"
+    title: 'Header'
     attributes:
       id: g-header
       class: ''
@@ -132,7 +132,7 @@ structure:
       boxed: ''
   showcase:
     type: section
-    title: "Showcase"
+    title: 'Showcase'
     attributes:
       id: g-showcase
       class: ''
@@ -140,7 +140,7 @@ structure:
       boxed: ''
   social:
     type: section
-    title: "Social"
+    title: 'Social'
     attributes:
       id: g-social
       class: ''
@@ -148,7 +148,7 @@ structure:
       boxed: ''
   feature:
     type: section
-    title: "Feature"
+    title: 'Feature'
     attributes:
       id: g-feature
       class: ''
@@ -156,7 +156,7 @@ structure:
       boxed: ''
   utility:
     type: section
-    title: "Utility"
+    title: 'Utility'
     attributes:
       id: g-utility
       class: ''
@@ -164,7 +164,7 @@ structure:
       boxed: ''
   breadcrumb:
     type: section
-    title: "Breadcrumb"
+    title: 'Breadcrumb'
     attributes:
       id: g-breadcrumb
       class: ''
@@ -172,7 +172,7 @@ structure:
       boxed: ''
   maintop:
     type: section
-    title: "Main Top"
+    title: 'Main Top'
     attributes:
       id: g-maintop
       class: ''
@@ -180,7 +180,7 @@ structure:
       boxed: ''
   container:
     type: section
-    title: "Container"
+    title: 'Container'
     attributes:
       id: g-main
       class: ''
@@ -189,7 +189,7 @@ structure:
   content-top:
     type: section
     subtype: main
-    title: "Content Top"
+    title: 'Content Top'
     attributes:
       id: g-content-top
       class: ''
@@ -204,7 +204,7 @@ structure:
   body:
     type: section
     subtype: main
-    title: "Content Body"
+    title: 'Content Body'
     attributes:
       id: g-body
       class: ''
@@ -219,7 +219,7 @@ structure:
   content-bottom:
     type: section
     subtype: main
-    title: "Content Bottom"
+    title: 'Content Bottom'
     attributes:
       id: g-content-bottom
       class: ''
@@ -234,7 +234,7 @@ structure:
   sidebar-a:
     type: section
     subtype: aside
-    title: "Sidebar A"
+    title: 'Sidebar A'
     attributes:
       id: g-sidebar-a
       class: ''
@@ -249,7 +249,7 @@ structure:
   sidebar-b:
     type: section
     subtype: aside
-    title: "Sidebar B"
+    title: 'Sidebar B'
     attributes:
       id: g-sidebar-b
       class: ''
@@ -263,7 +263,7 @@ structure:
       size: '20'
   mainbottom:
     type: section
-    title: "Main Bottom"
+    title: 'Main Bottom'
     attributes:
       id: g-mainbottom
       class: ''
@@ -271,7 +271,7 @@ structure:
       boxed: ''
   extension:
     type: section
-    title: "Extension"
+    title: 'Extension'
     attributes:
       id: g-extension
       class: ''
@@ -279,7 +279,7 @@ structure:
       boxed: ''
   bottom:
     type: section
-    title: "Bottom"
+    title: 'Bottom'
     attributes:
       id: g-bottom
       class: ''
@@ -287,7 +287,7 @@ structure:
       boxed: ''
   footer:
     type: section
-    title: "Footer"
+    title: 'Footer'
     attributes:
       id: g-footer
       class: ''
@@ -295,7 +295,7 @@ structure:
       boxed: ''
   copyright:
     type: section
-    title: "Copyright"
+    title: 'Copyright'
     attributes:
       id: g-copyright
       class: ''
@@ -315,7 +315,7 @@ content:
   position-drawer-5167:
     type: particle
     subtype: position
-    title: "Position - Drawer"
+    title: 'Position - Drawer'
     attributes:
       enabled: true
       key: drawer
@@ -329,7 +329,7 @@ content:
   position-top-4709:
     type: particle
     subtype: position
-    title: "Position - Top\_A"
+    title: 'Position - Top A'
     attributes:
       enabled: true
       key: top-a
@@ -343,7 +343,7 @@ content:
   position-top-4276:
     type: particle
     subtype: position
-    title: "Position - Top\_B"
+    title: 'Position - Top B'
     attributes:
       enabled: true
       key: top-b
@@ -357,7 +357,7 @@ content:
   position-top-1366:
     type: particle
     subtype: position
-    title: "Position - Top\_C"
+    title: 'Position - Top C'
     attributes:
       enabled: true
       key: top-c
@@ -371,7 +371,7 @@ content:
   position-top-7867:
     type: particle
     subtype: position
-    title: "Position - Top\_D"
+    title: 'Position - Top D'
     attributes:
       enabled: true
       key: top-d
@@ -385,7 +385,7 @@ content:
   position-header-1864:
     type: particle
     subtype: position
-    title: "Position - Header\_A"
+    title: 'Position - Header A'
     attributes:
       enabled: true
       key: header-a
@@ -399,7 +399,7 @@ content:
   position-header-5210:
     type: particle
     subtype: position
-    title: "Position - Header\_B"
+    title: 'Position - Header B'
     attributes:
       enabled: true
       key: header-b
@@ -413,7 +413,7 @@ content:
   position-header-1025:
     type: particle
     subtype: position
-    title: "Position - Header\_C"
+    title: 'Position - Header C'
     attributes:
       enabled: true
       key: header-c
@@ -427,7 +427,7 @@ content:
   position-header-7153:
     type: particle
     subtype: position
-    title: "Position - Header\_D"
+    title: 'Position - Header D'
     attributes:
       enabled: true
       key: header-d
@@ -441,7 +441,7 @@ content:
   position-showcase-8163:
     type: particle
     subtype: position
-    title: "Position - Showcase\_A"
+    title: 'Position - Showcase A'
     attributes:
       enabled: true
       key: showcase-a
@@ -455,7 +455,7 @@ content:
   position-showcase-7319:
     type: particle
     subtype: position
-    title: "Position - Showcase\_B"
+    title: 'Position - Showcase B'
     attributes:
       enabled: true
       key: showcase-b
@@ -469,7 +469,7 @@ content:
   position-showcase-8992:
     type: particle
     subtype: position
-    title: "Position - Showcase\_C"
+    title: 'Position - Showcase C'
     attributes:
       enabled: true
       key: showcase-c
@@ -483,7 +483,7 @@ content:
   position-showcase-2232:
     type: particle
     subtype: position
-    title: "Position - Showcase\_D"
+    title: 'Position - Showcase D'
     attributes:
       enabled: true
       key: showcase-d
@@ -497,7 +497,7 @@ content:
   position-feature-2594:
     type: particle
     subtype: position
-    title: "Position - Feature\_A"
+    title: 'Position - Feature A'
     attributes:
       enabled: true
       key: feature-a
@@ -511,7 +511,7 @@ content:
   position-feature-1278:
     type: particle
     subtype: position
-    title: "Position - Feature\_B"
+    title: 'Position - Feature B'
     attributes:
       enabled: true
       key: feature-b
@@ -525,7 +525,7 @@ content:
   position-feature-6139:
     type: particle
     subtype: position
-    title: "Position - Feature\_C"
+    title: 'Position - Feature C'
     attributes:
       enabled: true
       key: feature-c
@@ -539,7 +539,7 @@ content:
   position-feature-7375:
     type: particle
     subtype: position
-    title: "Position - Feature\_D"
+    title: 'Position - Feature D'
     attributes:
       enabled: true
       key: feature-d
@@ -553,7 +553,7 @@ content:
   position-utility-7255:
     type: particle
     subtype: position
-    title: "Position - Utility\_A"
+    title: 'Position - Utility A'
     attributes:
       enabled: true
       key: utility-a
@@ -567,7 +567,7 @@ content:
   position-utility-4918:
     type: particle
     subtype: position
-    title: "Position - Utility\_B"
+    title: 'Position - Utility B'
     attributes:
       enabled: true
       key: utility-b
@@ -581,7 +581,7 @@ content:
   position-utility-3220:
     type: particle
     subtype: position
-    title: "Position - Utility\_C"
+    title: 'Position - Utility C'
     attributes:
       enabled: true
       key: utility-c
@@ -595,7 +595,7 @@ content:
   position-utility-8686:
     type: particle
     subtype: position
-    title: "Position - Utility\_D"
+    title: 'Position - Utility D'
     attributes:
       enabled: true
       key: utility-d
@@ -609,7 +609,7 @@ content:
   position-breadcrumb-9302:
     type: particle
     subtype: position
-    title: "Position - Breadcrumb"
+    title: 'Position - Breadcrumb'
     attributes:
       enabled: true
       key: breadcrumb
@@ -623,7 +623,7 @@ content:
   position-maintop-4108:
     type: particle
     subtype: position
-    title: "Position - MainTop\_A"
+    title: 'Position - MainTop A'
     attributes:
       enabled: true
       key: maintop-a
@@ -637,7 +637,7 @@ content:
   position-maintop-7470:
     type: particle
     subtype: position
-    title: "Position - MainTop\_B"
+    title: 'Position - MainTop B'
     attributes:
       enabled: true
       key: maintop-b
@@ -651,7 +651,7 @@ content:
   position-maintop-1266:
     type: particle
     subtype: position
-    title: "Position - MainTop\_C"
+    title: 'Position - MainTop C'
     attributes:
       enabled: true
       key: maintop-c
@@ -665,7 +665,7 @@ content:
   position-maintop-9888:
     type: particle
     subtype: position
-    title: "Position - MainTop\_D"
+    title: 'Position - MainTop D'
     attributes:
       enabled: true
       key: maintop-d
@@ -679,7 +679,7 @@ content:
   position-content-top-7729:
     type: particle
     subtype: position
-    title: "Position - Content\_Top\_A"
+    title: 'Position - Content Top A'
     attributes:
       enabled: true
       key: content-top-a
@@ -693,7 +693,7 @@ content:
   position-content-top-6862:
     type: particle
     subtype: position
-    title: "Position - Content\_Top\_B"
+    title: 'Position - Content Top B'
     attributes:
       enabled: true
       key: content-top-b
@@ -707,7 +707,7 @@ content:
   position-content-top-3192:
     type: particle
     subtype: position
-    title: "Position - Content\_Top\_C"
+    title: 'Position - Content Top C'
     attributes:
       enabled: true
       key: content-top-c
@@ -733,7 +733,7 @@ content:
   position-content-bottom-4423:
     type: particle
     subtype: position
-    title: "Position - Content\_Bottom\_A"
+    title: 'Position - Content Bottom A'
     attributes:
       enabled: true
       key: content-bottom-a
@@ -747,7 +747,7 @@ content:
   position-content-bottom-3246:
     type: particle
     subtype: position
-    title: "Position - Content\_Bottom\_B"
+    title: 'Position - Content Bottom B'
     attributes:
       enabled: true
       key: content-bottom-b
@@ -761,7 +761,7 @@ content:
   position-content-bottom-2967:
     type: particle
     subtype: position
-    title: "Position - Content\_Bottom\_C"
+    title: 'Position - Content Bottom C'
     attributes:
       enabled: true
       key: content-bottom-c
@@ -775,7 +775,7 @@ content:
   position-sidebar-9887:
     type: particle
     subtype: position
-    title: "Position - Sidebar\_A"
+    title: 'Position - Sidebar A'
     attributes:
       enabled: true
       key: sidebar-a
@@ -789,7 +789,7 @@ content:
   position-sidebar-7283:
     type: particle
     subtype: position
-    title: "Position - Sidebar\_B"
+    title: 'Position - Sidebar B'
     attributes:
       enabled: true
       key: sidebar-b
@@ -803,7 +803,7 @@ content:
   position-mainbottom-8581:
     type: particle
     subtype: position
-    title: "Position - MainBottom\_A"
+    title: 'Position - MainBottom A'
     attributes:
       enabled: true
       key: mainbottom-a
@@ -817,7 +817,7 @@ content:
   position-mainbottom-4597:
     type: particle
     subtype: position
-    title: "Position - MainBottom\_B"
+    title: 'Position - MainBottom B'
     attributes:
       enabled: true
       key: mainbottom-b
@@ -831,7 +831,7 @@ content:
   position-mainbottom-9871:
     type: particle
     subtype: position
-    title: "Position - MainBottom\_C"
+    title: 'Position - MainBottom C'
     attributes:
       enabled: true
       key: mainbottom-c
@@ -845,7 +845,7 @@ content:
   position-mainbottom-5233:
     type: particle
     subtype: position
-    title: "Position - MainBottom\_D"
+    title: 'Position - MainBottom D'
     attributes:
       enabled: true
       key: mainbottom-d
@@ -859,7 +859,7 @@ content:
   position-extension-2509:
     type: particle
     subtype: position
-    title: "Position - Extension\_A"
+    title: 'Position - Extension A'
     attributes:
       enabled: true
       key: extension-a
@@ -873,7 +873,7 @@ content:
   position-extension-3659:
     type: particle
     subtype: position
-    title: "Position - Extension\_B"
+    title: 'Position - Extension B'
     attributes:
       enabled: true
       key: extension-b
@@ -887,7 +887,7 @@ content:
   position-extension-3840:
     type: particle
     subtype: position
-    title: "Position - Extension\_C"
+    title: 'Position - Extension C'
     attributes:
       enabled: true
       key: extension-c
@@ -901,7 +901,7 @@ content:
   position-extension-2974:
     type: particle
     subtype: position
-    title: "Position - Extension\_D"
+    title: 'Position - Extension D'
     attributes:
       enabled: true
       key: extension-d
@@ -915,7 +915,7 @@ content:
   position-bottom-7190:
     type: particle
     subtype: position
-    title: "Position - Bottom\_A"
+    title: 'Position - Bottom A'
     attributes:
       enabled: true
       key: bottom-a
@@ -929,7 +929,7 @@ content:
   position-bottom-1071:
     type: particle
     subtype: position
-    title: "Position - Bottom\_B"
+    title: 'Position - Bottom B'
     attributes:
       enabled: true
       key: bottom-b
@@ -943,7 +943,7 @@ content:
   position-bottom-1375:
     type: particle
     subtype: position
-    title: "Position - Bottom\_C"
+    title: 'Position - Bottom C'
     attributes:
       enabled: true
       key: bottom-c
@@ -957,7 +957,7 @@ content:
   position-bottom-5510:
     type: particle
     subtype: position
-    title: "Position - Bottom\_D"
+    title: 'Position - Bottom D'
     attributes:
       enabled: true
       key: bottom-d
@@ -971,7 +971,7 @@ content:
   position-footer-2440:
     type: particle
     subtype: position
-    title: "Position - Footer\_A"
+    title: 'Position - Footer A'
     attributes:
       enabled: true
       key: footer-a
@@ -985,7 +985,7 @@ content:
   position-footer-1419:
     type: particle
     subtype: position
-    title: "Position - Footer\_B"
+    title: 'Position - Footer B'
     attributes:
       enabled: true
       key: footer-b
@@ -999,7 +999,7 @@ content:
   position-footer-6890:
     type: particle
     subtype: position
-    title: "Position - Footer\_C"
+    title: 'Position - Footer C'
     attributes:
       enabled: true
       key: footer-c
@@ -1013,7 +1013,7 @@ content:
   position-footer-6686:
     type: particle
     subtype: position
-    title: "Position - Footer\_D"
+    title: 'Position - Footer D'
     attributes:
       enabled: true
       key: footer-d
@@ -1027,7 +1027,7 @@ content:
   position-copyright-4650:
     type: particle
     subtype: position
-    title: "Position - Copyright\_A"
+    title: 'Position - Copyright A'
     attributes:
       enabled: true
       key: copyright-a
@@ -1041,7 +1041,7 @@ content:
   position-copyright-9783:
     type: particle
     subtype: position
-    title: "Position - Copyright\_B"
+    title: 'Position - Copyright B'
     attributes:
       enabled: true
       key: copyright-b
@@ -1055,7 +1055,7 @@ content:
   position-copyright-8414:
     type: particle
     subtype: position
-    title: "Position - Copyright\_C"
+    title: 'Position - Copyright C'
     attributes:
       enabled: true
       key: copyright-c
@@ -1069,7 +1069,7 @@ content:
   position-copyright-6392:
     type: particle
     subtype: position
-    title: "Position - Copyright\_D"
+    title: 'Position - Copyright D'
     attributes:
       enabled: true
       key: copyright-d

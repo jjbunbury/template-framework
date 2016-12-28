@@ -247,7 +247,7 @@ content:
   position-showcase-6084:
     type: particle
     subtype: position
-    title: "Position - Showcase\_Top"
+    title: 'Position - Showcase Top'
     attributes:
       enabled: true
       key: showcase-top
@@ -261,7 +261,7 @@ content:
   position-showcase-3677:
     type: particle
     subtype: position
-    title: "Position - Showcase\_A"
+    title: 'Position - Showcase A'
     attributes:
       enabled: true
       key: showcase-a
@@ -275,7 +275,7 @@ content:
   position-showcase-7689:
     type: particle
     subtype: position
-    title: "Position - Showcase\_B"
+    title: 'Position - Showcase B'
     attributes:
       enabled: true
       key: showcase-b
@@ -289,7 +289,7 @@ content:
   position-showcase-1657:
     type: particle
     subtype: position
-    title: "Position - Showcase\_C"
+    title: 'Position - Showcase C'
     attributes:
       enabled: true
       key: showcase-c
@@ -303,7 +303,7 @@ content:
   position-showcase-3616:
     type: particle
     subtype: position
-    title: "Position - Showcase\_Bottom"
+    title: 'Position - Showcase Bottom'
     attributes:
       enabled: true
       key: showcase-bottom
@@ -329,7 +329,7 @@ content:
   position-extension-6976:
     type: particle
     subtype: position
-    title: "Position - Extension\_Top"
+    title: 'Position - Extension Top'
     attributes:
       enabled: true
       key: extension-top
@@ -343,7 +343,7 @@ content:
   position-extension-8215:
     type: particle
     subtype: position
-    title: "Position - Extension\_A"
+    title: 'Position - Extension A'
     attributes:
       enabled: true
       key: extension-a
@@ -357,7 +357,7 @@ content:
   position-extension-7420:
     type: particle
     subtype: position
-    title: "Position - Extension\_B"
+    title: 'Position - Extension B'
     attributes:
       enabled: true
       key: extension-b
@@ -371,7 +371,7 @@ content:
   position-extension-3240:
     type: particle
     subtype: position
-    title: "Position - Extension\_C"
+    title: 'Position - Extension C'
     attributes:
       enabled: true
       key: extension-c
@@ -385,7 +385,7 @@ content:
   position-extension-4690:
     type: particle
     subtype: position
-    title: "Position - Extension\_Bottom"
+    title: 'Position - Extension Bottom'
     attributes:
       enabled: true
       key: extension-bottom
@@ -399,7 +399,7 @@ content:
   position-footer-3468:
     type: particle
     subtype: position
-    title: "Position - Footer\_Top"
+    title: 'Position - Footer Top'
     attributes:
       enabled: true
       key: footer-top
@@ -413,7 +413,7 @@ content:
   position-footer-8980:
     type: particle
     subtype: position
-    title: "Position - Footer\_A"
+    title: 'Position - Footer A'
     attributes:
       enabled: true
       key: footer-a
@@ -427,7 +427,7 @@ content:
   position-footer-8721:
     type: particle
     subtype: position
-    title: "Position - Footer\_B"
+    title: 'Position - Footer B'
     attributes:
       enabled: true
       key: footer-b
@@ -441,7 +441,7 @@ content:
   position-footer-8325:
     type: particle
     subtype: position
-    title: "Position - Footer\_C"
+    title: 'Position - Footer C'
     attributes:
       enabled: true
       key: footer-c
@@ -455,7 +455,7 @@ content:
   position-footer-7290:
     type: particle
     subtype: position
-    title: "Position - Footer\_D"
+    title: 'Position - Footer D'
     attributes:
       enabled: true
       key: footer-d
@@ -469,7 +469,7 @@ content:
   position-footer-4360:
     type: particle
     subtype: position
-    title: "Position - Footer\_Bottom"
+    title: 'Position - Footer Bottom'
     attributes:
       enabled: true
       key: footer-bottom
@@ -483,7 +483,7 @@ content:
   position-copyright-7236:
     type: particle
     subtype: position
-    title: "Position - Copyright\_Top"
+    title: 'Position - Copyright Top'
     attributes:
       enabled: true
       key: copyright-top
@@ -497,7 +497,7 @@ content:
   position-copyright-7911:
     type: particle
     subtype: position
-    title: "Position - Copyright\_A"
+    title: 'Position - Copyright A'
     attributes:
       enabled: true
       key: copyright-a
@@ -511,7 +511,7 @@ content:
   position-copyright-7615:
     type: particle
     subtype: position
-    title: "Position - Copyright\_B"
+    title: 'Position - Copyright B'
     attributes:
       enabled: true
       key: copyright-b
@@ -525,7 +525,7 @@ content:
   position-copyright-5730:
     type: particle
     subtype: position
-    title: "Position - Copyright\_C"
+    title: 'Position - Copyright C'
     attributes:
       enabled: true
       key: copyright-c
@@ -539,7 +539,7 @@ content:
   position-copyright-4928:
     type: particle
     subtype: position
-    title: "Position - Copyright\_Bottom"
+    title: 'Position - Copyright Bottom'
     attributes:
       enabled: true
       key: copyright-bottom

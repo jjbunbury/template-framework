@@ -13,11 +13,12 @@ layout:
 structure:
   body:
     type: section
-    title: "Body"
+    title: 'Body'
     attributes:
+      id: g-body
+      class: ''
+      extra: {  }
       boxed: ''
-      class: 'g-body'
-      extra: ''
   offcanvas:
     type: offcanvas
     attributes:

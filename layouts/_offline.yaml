@@ -188,7 +188,7 @@ content:
   position-footer-3468:
     type: particle
     subtype: position
-    title: "Position - Footer\_Top"
+    title: 'Position - Footer Top'
     attributes:
       enabled: true
       key: footer-top
@@ -202,7 +202,7 @@ content:
   position-footer-8980:
     type: particle
     subtype: position
-    title: "Position - Footer\_A"
+    title: 'Position - Footer A'
     attributes:
       enabled: true
       key: footer-a
@@ -216,7 +216,7 @@ content:
   position-footer-8721:
     type: particle
     subtype: position
-    title: "Position - Footer\_B"
+    title: 'Position - Footer B'
     attributes:
       enabled: true
       key: footer-b
@@ -230,7 +230,7 @@ content:
   position-footer-8325:
     type: particle
     subtype: position
-    title: "Position - Footer\_C"
+    title: 'Position - Footer C'
     attributes:
       enabled: true
       key: footer-c
@@ -244,7 +244,7 @@ content:
   position-footer-7290:
     type: particle
     subtype: position
-    title: "Position - Footer\_D"
+    title: 'Position - Footer D'
     attributes:
       enabled: true
       key: footer-d
@@ -258,7 +258,7 @@ content:
   position-footer-4360:
     type: particle
     subtype: position
-    title: "Position - Footer\_Bottom"
+    title: 'Position - Footer Bottom'
     attributes:
       enabled: true
       key: footer-bottom
@@ -272,7 +272,7 @@ content:
   position-copyright-7236:
     type: particle
     subtype: position
-    title: "Position - Copyright\_Top"
+    title: 'Position - Copyright Top'
     attributes:
       enabled: true
       key: copyright-top
@@ -286,7 +286,7 @@ content:
   position-copyright-7911:
     type: particle
     subtype: position
-    title: "Position - Copyright\_A"
+    title: 'Position - Copyright A'
     attributes:
       enabled: true
       key: copyright-a
@@ -300,7 +300,7 @@ content:
   position-copyright-7615:
     type: particle
     subtype: position
-    title: "Position - Copyright\_B"
+    title: 'Position - Copyright B'
     attributes:
       enabled: true
       key: copyright-b
@@ -314,7 +314,7 @@ content:
   position-copyright-5730:
     type: particle
     subtype: position
-    title: "Position - Copyright\_C"
+    title: 'Position - Copyright C'
     attributes:
       enabled: true
       key: copyright-c
@@ -328,7 +328,7 @@ content:
   position-copyright-4928:
     type: particle
     subtype: position
-    title: "Position - Copyright\_Bottom"
+    title: 'Position - Copyright Bottom'
     attributes:
       enabled: true
       key: copyright-bottom
