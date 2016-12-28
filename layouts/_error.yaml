@@ -15,7 +15,7 @@ layout:
   /showcase/:
     -
       - 'error-4477 100'
-  /container-main/:
+  /container/:
     -
       -
         'mainbar 67':
@@ -52,51 +52,107 @@ structure:
   header:
     type: section
     subtype: header
+    title: 'Header'
     attributes:
-      boxed: ''
+      id: g-header
       class: ''
+      extra: ''
+      boxed: ''
   navigation:
     type: section
+    title: 'Navigation'
     attributes:
+      id: g-navigation
+      class: ''
+      extra: ''
       boxed: ''
   showcase:
     type: section
+    title: 'Showcase'
     attributes:
-      class: box1
+      id: g-showcase
+      class: 'box1'
+      extra: ''
       boxed: ''
   mainbar:
     type: section
     subtype: main
+    title: 'Body'
+    attributes:
+      id: g-body
+      class: ''
+      extra: ''
+      boxed: ''
   sidebar:
     type: section
     subtype: aside
-  container-main:
+    title: 'Sidebar'
+    attributes:
+      id: g-sidebar
+      class: ''
+      extra: ''
+      boxed: ''
+  container:
     type: section
+    title: 'Container'
     attributes:
       id: g-main
+      class: ''
+      extra: ''
       boxed: ''
   extension:
     type: section
+    title: 'Extension'
     attributes:
+      id: g-extension
+      class: ''
+      extra: ''
       boxed: ''
   footer:
     type: section
+    title: 'Footer'
     attributes:
+      id: g-footer
+      class: ''
+      extra: ''
       boxed: ''
   copyright:
     type: section
+    title: 'Copyright'
     attributes:
+      id: g-copyright
+      class: ''
+      extra: ''
       boxed: ''
   offcanvas:
+    type: offcanvas
     attributes:
+      id: g-offcanvas
+      class: ''
+      extra: {  }
       boxed: ''
+      position: g-offcanvas-left
+      swipe: 1
+      css3animation: 1
 content:
   logo-2371:
     type: particle
     subtype: logo
     title: 'Logo / Image'
+    attributes:
+      enabled: true
+      url: ''
+      image: 'gantry-theme://images/logo/callisto.png'
+      link: true
+      svg: ''
+      text: 'Callisto'
+      class: 'g-logo'
     block:
+      id: ''
       class: g-logo-block
+      variations: ''
+      fixed: ''
+      size: '56'
   menu-3709:
     type: particle
     subtype: iconmenu
@@ -127,7 +183,11 @@ content:
           link: 'https://marketplace.dazzlesoftware.org'
           name: Marketplace
     block:
-      class: flush
+      id: ''
+      class: 'flush'
+      variations: ''
+      fixed: ''
+      size: '44'
   menu-4987:
     type: particle
     subtype: menu
@@ -142,7 +202,11 @@ content:
       hoverExpand: 1
       mobileTarget: 0
     block:
-      class: g-menu-block
+      id: ''
+      class: 'g-menu-block'
+      variations: ''
+      fixed: ''
+      size: '80'
   social-2827:
     type: particle
     subtype: social
@@ -170,122 +234,221 @@ content:
           text: ''
           link: 'https://plus.google.com/u/0/106840830150956948495'
           name: Google+
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '20'
   error-4477:
     type: particle
     subtype: error
     title: 'Whooops! Error!'
     attributes:
+      enabled: 1
       class: g-layercontent-small
       title: 'Whooops! Error!'
       subtitle: 'Looks like something went wrong. Sorry!'
       readmore: ''
       link: ''
     block:
+      id: ''
       class: 'flush center'
       variations: ''
+      fixed: ''
+      size: '100'
   system-content-7076:
     type: system
     subtype: content
     title: 'Page Content'
+    attributes:
+      enabled: 1
     block:
       id: ''
       class: nomarginall
       variations: box2
+      fixed: ''
+      size: '100'
   error-4541:
     type: particle
     subtype: error
     title: 'Nothing to See Here'
     attributes:
+      enabled: 1
       class: ''
       title: 'Nothing to See Here'
       subtitle: 'Please use the navigation above or contact us to find what you are looking for.'
       readmore: 'Contact Us'
       link: '#'
     block:
+      id: ''
       class: 'flush center'
       variations: 'box1'
+      fixed: ''
+      size: '100'
   position-footer-3468:
-      title: "Position - Footer\_Top"
-      attributes:
-        key: footer-top
-      block:
-        id: ''
-        class: ''
-        fixed: ''
-        variations: ''
+    type: particle
+    subtype: position
+    title: "Position - Footer\_Top"
+    attributes:
+      enabled: 1
+      key: footer-top
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
   position-footer-8980:
-      title: "Position - Footer\_A"
-      attributes:
-        key: footer-a
-      block:
-        variations: ''
+    type: particle
+    subtype: position
+    title: "Position - Footer\_A"
+    attributes:
+      enabled: 1
+      key: footer-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
   position-footer-8721:
-      title: "Position - Footer\_B"
-      attributes:
-        key: footer-b
-      block:
-        variations: ''
+    type: particle
+    subtype: position
+    title: "Position - Footer\_B"
+    attributes:
+      enabled: 1
+      key: footer-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
   position-footer-8325:
-      title: "Position - Footer\_C"
-      attributes:
-        key: footer-c
-      block:
-        variations: ''
+    type: particle
+    subtype: position
+    title: "Position - Footer\_C"
+    attributes:
+      enabled: 1
+      key: footer-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
   position-footer-7290:
-      title: "Position - Footer\_D"
-      attributes:
-        key: footer-d
-      block:
-        variations: ''
+    type: particle
+    subtype: position
+    title: "Position - Footer\_D"
+    attributes:
+      enabled: 1
+      key: footer-d
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
   position-footer-4360:
-      title: "Position - Footer\_Bottom"
-      attributes:
-        key: footer-bottom
-      block:
-        variations: ''
+    type: particle
+    subtype: position
+    title: "Position - Footer\_Bottom"
+    attributes:
+      enabled: 1
+      key: footer-bottom
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
   position-copyright-7236:
-      title: "Position - Copyright\_Top"
-      attributes:
-        key: copyright-top
-      block:
-        id: ''
-        class: 'center'
-        fixed: ''
-        variations: ''
+    type: particle
+    subtype: position
+    title: "Position - Copyright\_Top"
+    attributes:
+      enabled: 1
+      key: copyright-top
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
   position-copyright-7911:
-      title: "Position - Copyright\_A"
-      attributes:
-        key: copyright-a
-      block:
-        variations: ''
+    type: particle
+    subtype: position
+    title: "Position - Copyright\_A"
+    attributes:
+      enabled: 1
+      key: copyright-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
   position-copyright-7615:
-      title: "Position - Copyright\_B"
-      attributes:
-        key: copyright-b
-      block:
-        variations: ''
+    type: particle
+    subtype: position
+    title: "Position - Copyright\_B"
+    attributes:
+      enabled: 1
+      key: copyright-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
   position-copyright-5730:
-      title: "Position - Copyright\_C"
-      attributes:
-        key: copyright-c
-      block:
-        variations: ''
+    type: particle
+    subtype: position
+    title: "Position - Copyright\_C"
+    attributes:
+      enabled: 1
+      key: copyright-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
   position-copyright-4928:
-      title: "Position - Copyright\_Bottom"
-      attributes:
-        key: copyright-bottom
-      block:
-        id: ''
-        class: 'center'
-        fixed: ''
-        variations: ''
+    type: particle
+    subtype: position
+    title: "Position - Copyright\_Bottom"
+    attributes:
+      enabled: 1
+      key: copyright-bottom
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
   mobile-menu-8694:
-      type: particle
-      subtype: mobile-menu
-      title: 'Mobile Menu'
-      attributes:
-        enabled: 1
-      block:
-        id: ''
-        class: ''
-        variations: ''
+    type: particle
+    subtype: mobile-menu
+    title: 'Mobile Menu'
+    attributes:
+      enabled: 1
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
