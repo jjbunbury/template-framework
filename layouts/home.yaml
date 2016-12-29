@@ -1,13 +1,19 @@
 version: 2
-
 preset:
   image: gantry-admin://images/layouts/home.png
   name: home
   timestamp: 1480356164
 layout:
-  /header/:
+  /drawer/:
     -
       - 'system-messages-8489 100'
+  /top/:
+    -
+      - 'position-top-4709 25'
+      - 'position-top-4276 25'
+      - 'position-top-1366 25'
+      - 'position-top-7867 25'
+  /header/:
     -
       - 'logo-2371 56'
       - 'iconmenu-3709 44'
@@ -19,121 +25,267 @@ layout:
     -
       - 'position-showcase-6084 100'
     -
-      - 'position-showcase-3677 33.3'
-      - 'position-showcase-7689 33.3'
-      - 'position-showcase-1657 33.3'
+      - 'position-showcase-8163 25'
+      - 'position-showcase-7319 25'
+      - 'position-showcase-8992 25'
+      - 'position-showcase-2232 25'
     -
       - 'position-showcase-3616 100'
+  /feature/:
+    -
+      - 'position-feature-2594 25'
+      - 'position-feature-1278 25'
+      - 'position-feature-6139 25'
+      - 'position-feature-7375 25'
+  /utility/:
+    -
+      - 'position-utility-7255 25'
+      - 'position-utility-4918 25'
+      - 'position-utility-3220 25'
+      - 'position-utility-8686 25'
+  /breadcrumb/:
+    -
+      - position-breadcrumb-9302
+  /maintop/:
+    -
+      - 'position-maintop-4108 25'
+      - 'position-maintop-7470 25'
+      - 'position-maintop-1266 25'
+      - 'position-maintop-9888 25'
   /container/:
     -
       -
+        'content-top 67':
+          -
+            - 'position-content-top-7729 33.3'
+            - 'position-content-top-6862 33.3'
+            - 'position-content-top-3192 33.3'
         'body 67':
           -
-            - 'position-featured-7960 100'
+            - 'system-content-7076 100'
+        'content-bottom 67':
+          -
+            - 'position-content-bottom-4423 33.3'
+            - 'position-content-bottom-3246 33.3'
+            - 'position-content-bottom-2967 33.3'
       -
-        'sidebar 33':
+        'sidebar-a 33':
           -
-            - 'position-search-7792 100'
-          -
-            - 'position-posts-6714 100'
-          -
-            - 'position-comments-3071 100'
-  /main/:
+            - 'position-sidebar-7283 100'
+  /mainbottom/:
     -
-      - 'position-main-5990 100'
-    -
-      - 'position-main-5899 67'
-      - 'position-main-5088 33'
-    -
-      - 'position-main-8164 100'
+      - 'position-mainbottom-8581 25'
+      - 'position-mainbottom-4597 25'
+      - 'position-mainbottom-9871 25'
+      - 'position-mainbottom-5233 25'
   /extension/:
     -
-      - 'position-extension-6976 100'
+      - 'position-extension-2509 25'
+      - 'position-extension-3659 25'
+      - 'position-extension-3840 25'
+      - 'position-extension-2974 25'
+  /bottom/:
     -
-      - 'position-extension-8215 33.3'
-      - 'position-extension-7420 33.3'
-      - 'position-extension-3240 33.3'
-    -
-      - 'position-extension-4690 100'
+      - 'position-bottom-7190 25'
+      - 'position-bottom-1071 25'
+      - 'position-bottom-1375 25'
+      - 'position-bottom-5510 25'
   /footer/:
     -
-      - 'position-footer-3468 100'
-    -
-      - 'position-footer-8980 25'
-      - 'position-footer-8721 25'
-      - 'position-footer-8325 25'
-      - 'position-footer-7290 25'
-    -
-      - 'position-footer-4360 100'
+      - 'position-footer-2440 25'
+      - 'position-footer-1419 25'
+      - 'position-footer-6890 25'
+      - 'position-footer-6686 25'
   /copyright/:
     -
-      - 'position-copyright-7236 100'
-    -
-      - 'position-copyright-7911 33.3'
-      - 'position-copyright-7615 33.3'
-      - 'position-copyright-5730 33.3'
-    -
-      - 'position-copyright-4928 100'
+      - 'position-copyright-4650 25'
+      - 'position-copyright-9783 25'
+      - 'position-copyright-8414 25'
+      - 'position-copyright-6392 25'
   offcanvas:
     -
       - 'mobile-menu-8694 100'
 structure:
+  drawer:
+    type: section
+    title: 'Drawer'
+    attributes:
+      id: g-drawer
+      class: ''
+      extra: {  }
+      boxed: ''
+  top:
+    type: section
+    title: 'Top'
+    attributes:
+      id: g-top
+      class: ''
+      extra: {  }
+      boxed: ''
   header:
     type: section
     subtype: header
+    title: 'Header'
     attributes:
-      boxed: ''
+      id: g-header
       class: ''
+      extra: {  }
+      boxed: ''
   navigation:
     type: section
-    subtype: nav
+    title: 'Navigation'
     attributes:
+      id: g-navigation
+      class: ''
+      extra: {  }
       boxed: ''
   showcase:
     type: section
+    title: 'Showcase'
     attributes:
-      class: box1
+      id: g-showcase
+      class: ''
+      extra: {  }
       boxed: ''
-  body:
+  feature:
+    type: section
+    title: 'Feature'
+    attributes:
+      id: g-feature
+      class: ''
+      extra: {  }
+      boxed: ''
+  utility:
+    type: section
+    title: 'Utility'
+    attributes:
+      id: g-utility
+      class: ''
+      extra: {  }
+      boxed: ''
+  breadcrumb:
+    type: section
+    title: 'Breadcrumb'
+    attributes:
+      id: g-breadcrumb
+      class: ''
+      extra: {  }
+      boxed: ''
+  maintop:
+    type: section
+    title: 'Main Top'
+    attributes:
+      id: g-maintop
+      class: ''
+      extra: {  }
+      boxed: ''
+  container:
+    type: section
+    title: 'Container'
+    attributes:
+      id: g-main
+      class: ''
+      extra: {  }
+      boxed: ''
+  content-top:
     type: section
     subtype: main
-    class: ''
+    title: 'Content Top'
+    attributes:
+      id: g-content-top
+      class: ''
+      extra: {  }
+      boxed: ''
     block:
       id: ''
       class: ''
       variations: ''
       fixed: ''
       size: '67'
-  sidebar:
+  body:
+    type: section
+    subtype: main
+    title: 'Content Body'
+    attributes:
+      id: g-body
+      class: ''
+      extra: {  }
+      boxed: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '67'
+  content-bottom:
+    type: section
+    subtype: main
+    title: 'Content Bottom'
+    attributes:
+      id: g-content-bottom
+      class: ''
+      extra: {  }
+      boxed: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '67'
+  sidebar-a:
     type: section
     subtype: aside
-    class: ''
+    title: 'Sidebar A'
+    attributes:
+      id: g-sidebar-a
+      class: ''
+      extra: {  }
+      boxed: ''
     block:
       id: ''
       class: ''
       variations: ''
       fixed: ''
       size: '33'
-  container:
+  mainbottom:
     type: section
+    title: 'Main Bottom'
     attributes:
-      id: g-main
-      boxed: ''
-  main:
-    type: section
-    attributes:
+      id: g-mainbottom
+      class: ''
+      extra: {  }
       boxed: ''
   extension:
     type: section
+    title: 'Extension'
     attributes:
+      id: g-extension
+      class: ''
+      extra: {  }
+      boxed: ''
+  bottom:
+    type: section
+    title: 'Bottom'
+    attributes:
+      id: g-bottom
+      class: ''
+      extra: {  }
       boxed: ''
   footer:
     type: section
+    title: 'Footer'
     attributes:
+      id: g-footer
+      class: ''
+      extra: {  }
       boxed: ''
   copyright:
     type: section
+    title: 'Copyright'
     attributes:
+      id: g-copyright
+      class: ''
+      extra: {  }
       boxed: ''
   offcanvas:
     type: offcanvas
@@ -158,6 +310,62 @@ content:
       variations: ''
       fixed: ''
       size: '100'
+  position-top-4709:
+    type: particle
+    subtype: position
+    title: 'Position - Top A'
+    attributes:
+      enabled: true
+      key: top-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-top-4276:
+    type: particle
+    subtype: position
+    title: 'Position - Top B'
+    attributes:
+      enabled: true
+      key: top-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-top-1366:
+    type: particle
+    subtype: position
+    title: 'Position - Top C'
+    attributes:
+      enabled: true
+      key: top-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-top-7867:
+    type: particle
+    subtype: position
+    title: 'Position - Top D'
+    attributes:
+      enabled: true
+      key: top-d
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
   logo-2371:
     type: particle
     subtype: logo
@@ -277,7 +485,7 @@ content:
       variations: ''
       fixed: ''
       size: '100'
-  position-showcase-3677:
+  position-showcase-8163:
     type: particle
     subtype: position
     title: 'Position - Showcase A'
@@ -287,11 +495,11 @@ content:
       chrome: ''
     block:
       id: ''
-      class: 'flush'
+      class: ''
       variations: ''
       fixed: ''
-      size: '33.3'
-  position-showcase-7689:
+      size: '25'
+  position-showcase-7319:
     type: particle
     subtype: position
     title: 'Position - Showcase B'
@@ -301,11 +509,11 @@ content:
       chrome: ''
     block:
       id: ''
-      class: 'flush'
+      class: ''
       variations: ''
       fixed: ''
-      size: '33.3'
-  position-showcase-1657:
+      size: '25'
+  position-showcase-8992:
     type: particle
     subtype: position
     title: 'Position - Showcase C'
@@ -315,10 +523,24 @@ content:
       chrome: ''
     block:
       id: ''
-      class: 'flush'
+      class: ''
       variations: ''
       fixed: ''
-      size: '33.3'
+      size: '25'
+  position-showcase-2232:
+    type: particle
+    subtype: position
+    title: 'Position - Showcase D'
+    attributes:
+      enabled: true
+      key: showcase-d
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
   position-showcase-3616:
     type: particle
     subtype: position
@@ -333,133 +555,355 @@ content:
       variations: ''
       fixed: ''
       size: '100'
-  position-featured-7960:
+  position-feature-2594:
     type: particle
     subtype: position
-    title: 'Position - Featured Top'
+    title: 'Position - Feature A'
     attributes:
       enabled: true
-      key: featured-top
+      key: feature-a
       chrome: ''
     block:
       id: ''
-      class: 'center flush'
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-feature-1278:
+    type: particle
+    subtype: position
+    title: 'Position - Feature B'
+    attributes:
+      enabled: true
+      key: feature-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-feature-6139:
+    type: particle
+    subtype: position
+    title: 'Position - Feature C'
+    attributes:
+      enabled: true
+      key: feature-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-feature-7375:
+    type: particle
+    subtype: position
+    title: 'Position - Feature D'
+    attributes:
+      enabled: true
+      key: feature-d
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-utility-7255:
+    type: particle
+    subtype: position
+    title: 'Position - Utility A'
+    attributes:
+      enabled: true
+      key: utility-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-utility-4918:
+    type: particle
+    subtype: position
+    title: 'Position - Utility B'
+    attributes:
+      enabled: true
+      key: utility-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-utility-3220:
+    type: particle
+    subtype: position
+    title: 'Position - Utility C'
+    attributes:
+      enabled: true
+      key: utility-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-utility-8686:
+    type: particle
+    subtype: position
+    title: 'Position - Utility D'
+    attributes:
+      enabled: true
+      key: utility-d
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-breadcrumb-9302:
+    type: particle
+    subtype: position
+    title: 'Position - Breadcrumb'
+    attributes:
+      enabled: true
+      key: breadcrumb
+      chrome: ''
+    block:
+      id: ''
+      class: ''
       variations: ''
       fixed: ''
       size: '100'
-  position-search-7792:
+  position-maintop-4108:
     type: particle
     subtype: position
-    title: 'Position - Search'
+    title: 'Position - MainTop A'
     attributes:
       enabled: true
-      key: search
+      key: maintop-a
       chrome: ''
     block:
       id: ''
-      class: 'center flush'
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-maintop-7470:
+    type: particle
+    subtype: position
+    title: 'Position - MainTop B'
+    attributes:
+      enabled: true
+      key: maintop-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-maintop-1266:
+    type: particle
+    subtype: position
+    title: 'Position - MainTop C'
+    attributes:
+      enabled: true
+      key: maintop-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-maintop-9888:
+    type: particle
+    subtype: position
+    title: 'Position - MainTop D'
+    attributes:
+      enabled: true
+      key: maintop-d
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-content-top-7729:
+    type: particle
+    subtype: position
+    title: 'Position - Content Top A'
+    attributes:
+      enabled: true
+      key: content-top-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '33.3'
+  position-content-top-6862:
+    type: particle
+    subtype: position
+    title: 'Position - Content Top B'
+    attributes:
+      enabled: true
+      key: content-top-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '33.3'
+  position-content-top-3192:
+    type: particle
+    subtype: position
+    title: 'Position - Content Top C'
+    attributes:
+      enabled: true
+      key: content-top-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '33.3'
+  system-content-7076:
+    type: system
+    subtype: content
+    title: 'Page Content'
+    attributes:
+      enabled: true
+    block:
+      id: ''
+      class: nomarginall
+      variations: box2
+      fixed: ''
+      size: '100'
+  position-content-bottom-4423:
+    type: particle
+    subtype: position
+    title: 'Position - Content Bottom A'
+    attributes:
+      enabled: true
+      key: content-bottom-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '33.3'
+  position-content-bottom-3246:
+    type: particle
+    subtype: position
+    title: 'Position - Content Bottom B'
+    attributes:
+      enabled: true
+      key: content-bottom-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '33.3'
+  position-content-bottom-2967:
+    type: particle
+    subtype: position
+    title: 'Position - Content Bottom C'
+    attributes:
+      enabled: true
+      key: content-bottom-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '33.3'
+  position-sidebar-7283:
+    type: particle
+    subtype: position
+    title: 'Position - Sidebar A'
+    attributes:
+      enabled: true
+      key: sidebar-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
       variations: ''
       fixed: ''
       size: '100'
-  position-posts-6714:
+  position-mainbottom-8581:
     type: particle
     subtype: position
-    title: 'Position - Recent Posts'
+    title: 'Position - MainBottom A'
     attributes:
       enabled: true
-      key: recent-posts
+      key: mainbottom-a
       chrome: ''
     block:
       id: ''
-      class: 'center flush'
+      class: ''
       variations: ''
       fixed: ''
-      size: '100'
-  position-comments-3071:
+      size: '25'
+  position-mainbottom-4597:
     type: particle
     subtype: position
-    title: 'Position - Recent Comments'
+    title: 'Position - MainBottom B'
     attributes:
       enabled: true
-      key: recent-comments
+      key: mainbottom-b
       chrome: ''
     block:
       id: ''
-      class: 'center flush'
+      class: ''
       variations: ''
       fixed: ''
-      size: '100'
-  position-main-5990:
+      size: '25'
+  position-mainbottom-9871:
     type: particle
     subtype: position
-    title: 'Position - Main Top'
+    title: 'Position - MainBottom C'
     attributes:
       enabled: true
-      key: main-top
+      key: mainbottom-c
       chrome: ''
     block:
       id: ''
-      class: 'center flush'
+      class: ''
       variations: ''
       fixed: ''
-      size: '100'
-  position-main-5899:
+      size: '25'
+  position-mainbottom-5233:
     type: particle
     subtype: position
-    title: 'Position - Main A'
+    title: 'Position - MainBottom D'
     attributes:
       enabled: true
-      key: main-a
+      key: mainbottom-d
       chrome: ''
     block:
       id: ''
-      class: 'center flush'
+      class: ''
       variations: ''
       fixed: ''
-      size: '67'
-  position-main-5088:
-    type: particle
-    subtype: position
-    title: 'Position - Main B'
-    attributes:
-      enabled: true
-      key: main-b
-      chrome: ''
-    block:
-      id: ''
-      class: 'center flush'
-      variations: ''
-      fixed: ''
-      size: '33'
-  position-main-8164:
-    type: particle
-    subtype: position
-    title: 'Position - Main Bottom'
-    attributes:
-      enabled: true
-      key: main-bottom
-      chrome: ''
-    block:
-      id: ''
-      class: 'center flush'
-      variations: ''
-      fixed: ''
-      size: '100'
-  position-extension-6976:
-    type: particle
-    subtype: position
-    title: 'Position - Extension Top'
-    attributes:
-      enabled: true
-      key: extension-top
-      chrome: ''
-    block:
-      id: ''
-      class: 'center flush'
-      variations: ''
-      fixed: ''
-      size: '100'
-  position-extension-8215:
+      size: '25'
+  position-extension-2509:
     type: particle
     subtype: position
     title: 'Position - Extension A'
@@ -469,11 +913,11 @@ content:
       chrome: ''
     block:
       id: ''
-      class: 'flush'
+      class: ''
       variations: ''
       fixed: ''
-      size: '33.3'
-  position-extension-7420:
+      size: '25'
+  position-extension-3659:
     type: particle
     subtype: position
     title: 'Position - Extension B'
@@ -483,11 +927,11 @@ content:
       chrome: ''
     block:
       id: ''
-      class: 'flush'
+      class: ''
       variations: ''
       fixed: ''
-      size: '33.3'
-  position-extension-3240:
+      size: '25'
+  position-extension-3840:
     type: particle
     subtype: position
     title: 'Position - Extension C'
@@ -497,39 +941,81 @@ content:
       chrome: ''
     block:
       id: ''
-      class: 'flush'
+      class: ''
       variations: ''
       fixed: ''
-      size: '33.3'
-  position-extension-4690:
+      size: '25'
+  position-extension-2974:
     type: particle
     subtype: position
-    title: 'Position - Extension Bottom'
+    title: 'Position - Extension D'
     attributes:
       enabled: true
-      key: extension-bottom
+      key: extension-d
       chrome: ''
     block:
       id: ''
-      class: 'center flush'
+      class: ''
       variations: ''
       fixed: ''
-      size: '100'
-  position-footer-3468:
+      size: '25'
+  position-bottom-7190:
     type: particle
     subtype: position
-    title: 'Position - Footer Top'
+    title: 'Position - Bottom A'
     attributes:
       enabled: true
-      key: footer-top
+      key: bottom-a
       chrome: ''
     block:
       id: ''
-      class: 'center flush'
+      class: ''
       variations: ''
       fixed: ''
-      size: '100'
-  position-footer-8980:
+      size: '25'
+  position-bottom-1071:
+    type: particle
+    subtype: position
+    title: 'Position - Bottom B'
+    attributes:
+      enabled: true
+      key: bottom-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-bottom-1375:
+    type: particle
+    subtype: position
+    title: 'Position - Bottom C'
+    attributes:
+      enabled: true
+      key: bottom-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-bottom-5510:
+    type: particle
+    subtype: position
+    title: 'Position - Bottom D'
+    attributes:
+      enabled: true
+      key: bottom-d
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-footer-2440:
     type: particle
     subtype: position
     title: 'Position - Footer A'
@@ -539,11 +1025,11 @@ content:
       chrome: ''
     block:
       id: ''
-      class: 'flush'
+      class: ''
       variations: ''
       fixed: ''
       size: '25'
-  position-footer-8721:
+  position-footer-1419:
     type: particle
     subtype: position
     title: 'Position - Footer B'
@@ -553,11 +1039,11 @@ content:
       chrome: ''
     block:
       id: ''
-      class: 'flush'
+      class: ''
       variations: ''
       fixed: ''
       size: '25'
-  position-footer-8325:
+  position-footer-6890:
     type: particle
     subtype: position
     title: 'Position - Footer C'
@@ -567,11 +1053,11 @@ content:
       chrome: ''
     block:
       id: ''
-      class: 'flush'
+      class: ''
       variations: ''
       fixed: ''
       size: '25'
-  position-footer-7290:
+  position-footer-6686:
     type: particle
     subtype: position
     title: 'Position - Footer D'
@@ -581,39 +1067,11 @@ content:
       chrome: ''
     block:
       id: ''
-      class: 'flush'
+      class: ''
       variations: ''
       fixed: ''
       size: '25'
-  position-footer-4360:
-    type: particle
-    subtype: position
-    title: 'Position - Footer Bottom'
-    attributes:
-      enabled: true
-      key: footer-bottom
-      chrome: ''
-    block:
-      id: ''
-      class: 'center flush'
-      variations: ''
-      fixed: ''
-      size: '100'
-  position-copyright-7236:
-    type: particle
-    subtype: position
-    title: 'Position - Copyright Top'
-    attributes:
-      enabled: true
-      key: copyright-top
-      chrome: ''
-    block:
-      id: ''
-      class: 'center flush'
-      variations: ''
-      fixed: ''
-      size: '100'
-  position-copyright-7911:
+  position-copyright-4650:
     type: particle
     subtype: position
     title: 'Position - Copyright A'
@@ -623,11 +1081,11 @@ content:
       chrome: ''
     block:
       id: ''
-      class: 'flush'
+      class: ''
       variations: ''
       fixed: ''
-      size: '33.3'
-  position-copyright-7615:
+      size: '25'
+  position-copyright-9783:
     type: particle
     subtype: position
     title: 'Position - Copyright B'
@@ -637,11 +1095,11 @@ content:
       chrome: ''
     block:
       id: ''
-      class: 'flush'
+      class: ''
       variations: ''
       fixed: ''
-      size: '33.3'
-  position-copyright-5730:
+      size: '25'
+  position-copyright-8414:
     type: particle
     subtype: position
     title: 'Position - Copyright C'
@@ -651,24 +1109,24 @@ content:
       chrome: ''
     block:
       id: ''
-      class: 'flush'
+      class: ''
       variations: ''
       fixed: ''
-      size: '33.3'
-  position-copyright-4928:
+      size: '25'
+  position-copyright-6392:
     type: particle
     subtype: position
-    title: 'Position - Copyright Bottom'
+    title: 'Position - Copyright D'
     attributes:
       enabled: true
-      key: copyright-bottom
+      key: copyright-d
       chrome: ''
     block:
       id: ''
-      class: 'center flush'
+      class: ''
       variations: ''
       fixed: ''
-      size: '100'
+      size: '25'
   mobile-menu-8694:
     type: particle
     subtype: mobile-menu

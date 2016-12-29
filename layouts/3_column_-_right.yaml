@@ -72,23 +72,38 @@ structure:
   header:
     type: section
     subtype: header
+    title: 'Header'
     attributes:
-      boxed: ''
+      id: g-header
       class: ''
+      extra: {  }
+      boxed: ''
   navigation:
     type: section
     subtype: nav
+    title: 'Navigation'
     attributes:
+      id: g-navigation
+      class: ''
+      extra: {  }
       boxed: ''
   showcase:
     type: section
+    title: 'Showcase'
     attributes:
-      class: box1
+      id: g-showcase
+      class: ''
+      extra: {  }
       boxed: ''
   body:
     type: section
     subtype: main
-    class: ''
+    title: 'Content Body'
+    attributes:
+      id: g-body
+      class: ''
+      extra: {  }
+      boxed: ''
     block:
       id: ''
       class: ''
@@ -98,7 +113,12 @@ structure:
   sidebar-left:
     type: section
     subtype: aside
-    class: ''
+    title: 'Sidebar Left'
+    attributes:
+      id: g-sidebar-left
+      class: ''
+      extra: {  }
+      boxed: ''
     block:
       id: ''
       class: ''
@@ -108,7 +128,12 @@ structure:
   sidebar-right:
     type: section
     subtype: aside
-    class: ''
+    title: 'Sidebar Right'
+    attributes:
+      id: g-sidebar-right
+      class: ''
+      extra: {  }
+      boxed: ''
     block:
       id: ''
       class: ''
@@ -117,20 +142,35 @@ structure:
       size: '20'
   container:
     type: section
+    title: 'Container'
     attributes:
       id: g-main
+      class: ''
+      extra: {  }
       boxed: ''
   extension:
     type: section
+    title: 'Extension'
     attributes:
+      id: g-extension
+      class: ''
+      extra: {  }
       boxed: ''
   footer:
     type: section
+    title: 'Footer'
     attributes:
+      id: g-footer
+      class: ''
+      extra: {  }
       boxed: ''
   copyright:
     type: section
+    title: 'Copyright'
     attributes:
+      id: g-copyright
+      class: ''
+      extra: {  }
       boxed: ''
   offcanvas:
     type: offcanvas
