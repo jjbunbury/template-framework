@@ -1,0 +1,1481 @@
+version: 2
+preset:
+  image: gantry-admin://images/layouts/home.png
+  name: home_-_showcase
+  timestamp: 1480356164
+layout:
+  /drawer/:
+    -
+      - 'system-messages-8489 100'
+  /top/:
+    -
+      - 'position-top-4888 100'
+    -
+      - 'position-top-4709 25'
+      - 'position-top-4276 25'
+      - 'position-top-1366 25'
+      - 'position-top-7867 25'
+    -
+      - 'position-top-1438 100'
+  /header/:
+    -
+      - 'logo-2371 56'
+      - 'iconmenu-3709 44'
+  /navigation/:
+    -
+      - 'menu-4987 80'
+      - 'social-2827 20'
+  /showcase/:
+    -
+      - 'position-showcase-9981 100'
+    -
+      - 'position-showcase-8163 25'
+      - 'position-showcase-7319 25'
+      - 'position-showcase-8992 25'
+      - 'position-showcase-2232 25'
+    -
+      - 'position-showcase-2454 100'
+  /feature/:
+    -
+      - 'position-feature-5323 100'
+    -
+      - 'position-feature-2594 25'
+      - 'position-feature-1278 25'
+      - 'position-feature-6139 25'
+      - 'position-feature-7375 25'
+    -
+      - 'position-feature-7766 100'
+  /utility/:
+    -
+      - 'position-utility-3701 100'
+    -
+      - 'position-utility-7255 25'
+      - 'position-utility-4918 25'
+      - 'position-utility-3220 25'
+      - 'position-utility-8686 25'
+    -
+      - 'position-utility-6050 100'
+  /breadcrumb/:
+    -
+      - position-breadcrumb-9302
+  /maintop/:
+    -
+      - 'position-maintop-9444 100'
+    -
+      - 'position-maintop-4108 25'
+      - 'position-maintop-7470 25'
+      - 'position-maintop-1266 25'
+      - 'position-maintop-9888 25'
+    -
+      - 'position-maintop-7130 100'
+  /container/:
+    -
+      -
+        'content-top 67':
+          -
+            - 'position-content-top-9476 100'
+          -
+            - 'position-content-top-7729 33.3'
+            - 'position-content-top-6862 33.3'
+            - 'position-content-top-3192 33.3'
+          -
+            - 'position-content-top-8410 100'
+        'body 67': {  }
+        'content-bottom 67':
+          -
+            - 'position-content-bottom-6577 100'
+          -
+            - 'position-content-bottom-4423 33.3'
+            - 'position-content-bottom-3246 33.3'
+            - 'position-content-bottom-2967 33.3'
+          -
+            - 'position-content-bottom-7901 100'
+      -
+        'sidebar 33':
+          -
+            - 'position-sidebar-9887 100'
+  /mainbottom/:
+    -
+      - 'position-mainbottom-4813 100'
+    -
+      - 'position-mainbottom-8581 25'
+      - 'position-mainbottom-4597 25'
+      - 'position-mainbottom-9871 25'
+      - 'position-mainbottom-5233 25'
+    -
+      - 'position-mainbottom-6486 100'
+  /extension/:
+    -
+      - 'position-extension-4369 100'
+    -
+      - 'position-extension-2509 25'
+      - 'position-extension-3659 25'
+      - 'position-extension-3840 25'
+      - 'position-extension-2974 25'
+    -
+      - 'position-extension-4998 100'
+  /bottom/:
+    -
+      - 'position-bottom-3655 100'
+    -
+      - 'position-bottom-7190 25'
+      - 'position-bottom-1071 25'
+      - 'position-bottom-1375 25'
+      - 'position-bottom-5510 25'
+    -
+      - 'position-bottom-8933 100'
+  /footer/:
+    -
+      - 'position-footer-1017 100'
+    -
+      - 'position-footer-2440 25'
+      - 'position-footer-1419 25'
+      - 'position-footer-6890 25'
+      - 'position-footer-6686 25'
+    -
+      - 'position-footer-4555 100'
+  /copyright/:
+    -
+      - 'position-copyright-6275 100'
+    -
+      - 'position-copyright-4650 25'
+      - 'position-copyright-9783 25'
+      - 'position-copyright-8414 25'
+      - 'position-copyright-6392 25'
+    -
+      - 'position-copyright-1237 100'
+  offcanvas:
+    -
+      - 'mobile-menu-8694 100'
+structure:
+  drawer:
+    type: section
+    title: 'Drawer'
+    attributes:
+      id: g-drawer
+      class: ''
+      extra: {  }
+      boxed: ''
+  top:
+    type: section
+    title: 'Top'
+    attributes:
+      id: g-top
+      class: ''
+      extra: {  }
+      boxed: ''
+  header:
+    type: section
+    subtype: header
+    title: 'Header'
+    attributes:
+      id: g-header
+      class: ''
+      extra: {  }
+      boxed: ''
+  navigation:
+    type: section
+    title: 'Navigation'
+    attributes:
+      id: g-navigation
+      class: ''
+      extra: {  }
+      boxed: ''
+  showcase:
+    type: section
+    title: 'Showcase'
+    attributes:
+      id: g-showcase
+      class: ''
+      extra: {  }
+      boxed: ''
+  feature:
+    type: section
+    title: 'Feature'
+    attributes:
+      id: g-feature
+      class: ''
+      extra: {  }
+      boxed: ''
+  utility:
+    type: section
+    title: 'Utility'
+    attributes:
+      id: g-utility
+      class: ''
+      extra: {  }
+      boxed: ''
+  breadcrumb:
+    type: section
+    title: 'Breadcrumb'
+    attributes:
+      id: g-breadcrumb
+      class: ''
+      extra: {  }
+      boxed: ''
+  maintop:
+    type: section
+    title: 'Main Top'
+    attributes:
+      id: g-maintop
+      class: ''
+      extra: {  }
+      boxed: ''
+  container:
+    type: section
+    title: 'Container'
+    attributes:
+      id: g-main
+      class: ''
+      extra: {  }
+      boxed: ''
+  content-top:
+    type: section
+    subtype: main
+    title: 'Content Top'
+    attributes:
+      id: g-content-top
+      class: ''
+      extra: {  }
+      boxed: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '67'
+  body:
+    type: section
+    subtype: main
+    title: 'Content Body'
+    attributes:
+      id: g-body
+      class: ''
+      extra: {  }
+      boxed: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '67'
+  content-bottom:
+    type: section
+    subtype: main
+    title: 'Content Bottom'
+    attributes:
+      id: g-content-bottom
+      class: ''
+      extra: {  }
+      boxed: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '67'
+  sidebar:
+    type: section
+    subtype: aside
+    title: 'Sidebar'
+    attributes:
+      id: g-sidebar
+      class: ''
+      extra: {  }
+      boxed: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '33'
+  mainbottom:
+    type: section
+    title: 'Main Bottom'
+    attributes:
+      id: g-mainbottom
+      class: ''
+      extra: {  }
+      boxed: ''
+  extension:
+    type: section
+    title: 'Extension'
+    attributes:
+      id: g-extension
+      class: ''
+      extra: {  }
+      boxed: ''
+  bottom:
+    type: section
+    title: 'Bottom'
+    attributes:
+      id: g-bottom
+      class: ''
+      extra: {  }
+      boxed: ''
+  footer:
+    type: section
+    title: 'Footer'
+    attributes:
+      id: g-footer
+      class: ''
+      extra: {  }
+      boxed: ''
+  copyright:
+    type: section
+    title: 'Copyright'
+    attributes:
+      id: g-copyright
+      class: ''
+      extra: {  }
+      boxed: ''
+  offcanvas:
+    type: offcanvas
+    attributes:
+      id: g-offcanvas
+      class: ''
+      extra: {  }
+      boxed: ''
+      position: g-offcanvas-left
+      swipe: 1
+      css3animation: 1
+content:
+  system-messages-8489:
+    type: system
+    subtype: messages
+    title: 'System Messages'
+    attributes:
+      enabled: true
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-top-4888:
+    type: particle
+    subtype: position
+    title: 'Position - Top Header'
+    attributes:
+      enabled: true
+      key: top-header
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-top-4709:
+    type: particle
+    subtype: position
+    title: 'Position - Top A'
+    attributes:
+      enabled: true
+      key: top-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-top-4276:
+    type: particle
+    subtype: position
+    title: 'Position - Top B'
+    attributes:
+      enabled: true
+      key: top-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-top-1366:
+    type: particle
+    subtype: position
+    title: 'Position - Top C'
+    attributes:
+      enabled: true
+      key: top-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-top-7867:
+    type: particle
+    subtype: position
+    title: 'Position - Top D'
+    attributes:
+      enabled: true
+      key: top-d
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-top-1438:
+    type: particle
+    subtype: position
+    title: 'Position - Top Footer'
+    attributes:
+      enabled: true
+      key: top-footer
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  logo-2371:
+    type: particle
+    subtype: logo
+    title: 'Logo / Image'
+    attributes:
+      enabled: true
+      url: ''
+      image: 'gantry-theme://images/logo/callisto.png'
+      link: true
+      svg: ''
+      text: 'Callisto'
+      class: 'g-logo'
+    block:
+      id: ''
+      class: g-logo-block
+      variations: ''
+      fixed: ''
+      size: '56'
+  iconmenu-3709:
+    type: particle
+    subtype: iconmenu
+    title: 'Icon Menu'
+    attributes:
+      enabled: true
+      class: ''
+      target: _parent
+      items:
+        -
+          icon: 'fa fa-comments'
+          text: 'Blog'
+          link: 'https://blog.dazzlesoftware.org'
+          name: Blog
+        -
+          icon: 'fa fa-book'
+          text: 'Codex'
+          link: 'https://codex.dazzlesoftware.org'
+          name: Codex
+        -
+          icon: 'fa fa-commenting'
+          text: 'Community'
+          link: 'https://community.dazzlesoftware.org'
+          name: Community
+        -
+          icon: 'fa fa-shopping-cart'
+          text: 'Marketplace'
+          link: 'https://marketplace.dazzlesoftware.org'
+          name: Marketplace
+    block:
+      id: ''
+      class: flush
+      variations: ''
+      fixed: ''
+      size: '44'
+  menu-4987:
+    type: particle
+    subtype: menu
+    title: Menu
+    attributes:
+      enabled: true
+      menu: ''
+      base: '/'
+      startLevel: 1
+      maxLevels: 0
+      renderTitles: 0
+      hoverExpand: 1
+      mobileTarget: 0
+    block:
+      id: ''
+      class: g-menu-block
+      variations: ''
+      fixed: ''
+      size: '80'
+  social-2827:
+    type: particle
+    subtype: social
+    title: Social
+    attributes:
+      enabled: true
+      css:
+        class: 'social-items'
+      title: ''
+      target: _blank
+      display: both
+      items:
+        -
+          icon: 'fa fa-twitter fa-fw'
+          text: ''
+          link: 'http://www.twitter.com/dazzlesoftware'
+          name: Twitter
+        -
+          icon: 'fa fa-facebook fa-fw'
+          text: ''
+          link: 'http://www.facebook.com/dazzlesoftware'
+          name: Facebook
+        -
+          icon: 'fa fa-google-plus fa-fw'
+          text: ''
+          link: 'https://plus.google.com/u/0/106840830150956948495'
+          name: Google+
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '20'
+  position-showcase-9981:
+    type: particle
+    subtype: position
+    title: 'Position - Showcase Header'
+    attributes:
+      enabled: true
+      key: showcase-header
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-showcase-8163:
+    type: particle
+    subtype: position
+    title: 'Position - Showcase A'
+    attributes:
+      enabled: true
+      key: showcase-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-showcase-7319:
+    type: particle
+    subtype: position
+    title: 'Position - Showcase B'
+    attributes:
+      enabled: true
+      key: showcase-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-showcase-8992:
+    type: particle
+    subtype: position
+    title: 'Position - Showcase C'
+    attributes:
+      enabled: true
+      key: showcase-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-showcase-2232:
+    type: particle
+    subtype: position
+    title: 'Position - Showcase D'
+    attributes:
+      enabled: true
+      key: showcase-d
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-showcase-2454:
+    type: particle
+    subtype: position
+    title: 'Position - Showcase Footer'
+    attributes:
+      enabled: true
+      key: showcase-footer
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-feature-5323:
+    type: particle
+    subtype: position
+    title: 'Position - Feature Header'
+    attributes:
+      enabled: true
+      key: feature-header
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+      
+      
+  position-feature-2594:
+    type: particle
+    subtype: position
+    title: 'Position - Feature A'
+    attributes:
+      enabled: true
+      key: feature-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-feature-1278:
+    type: particle
+    subtype: position
+    title: 'Position - Feature B'
+    attributes:
+      enabled: true
+      key: feature-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-feature-6139:
+    type: particle
+    subtype: position
+    title: 'Position - Feature C'
+    attributes:
+      enabled: true
+      key: feature-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-feature-7375:
+    type: particle
+    subtype: position
+    title: 'Position - Feature D'
+    attributes:
+      enabled: true
+      key: feature-d
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-feature-7766:
+    type: particle
+    subtype: position
+    title: 'Position - Feature Footer'
+    attributes:
+      enabled: true
+      key: feature-footer
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-utility-3701:
+    type: particle
+    subtype: position
+    title: 'Position - Utility Header'
+    attributes:
+      enabled: true
+      key: utility-header
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-utility-7255:
+    type: particle
+    subtype: position
+    title: 'Position - Utility A'
+    attributes:
+      enabled: true
+      key: utility-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-utility-4918:
+    type: particle
+    subtype: position
+    title: 'Position - Utility B'
+    attributes:
+      enabled: true
+      key: utility-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-utility-3220:
+    type: particle
+    subtype: position
+    title: 'Position - Utility C'
+    attributes:
+      enabled: true
+      key: utility-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-utility-8686:
+    type: particle
+    subtype: position
+    title: 'Position - Utility D'
+    attributes:
+      enabled: true
+      key: utility-d
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-utility-6050:
+    type: particle
+    subtype: position
+    title: 'Position - Utility Footer'
+    attributes:
+      enabled: true
+      key: utility-footer
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-breadcrumb-9302:
+    type: particle
+    subtype: position
+    title: 'Position - Breadcrumb'
+    attributes:
+      enabled: true
+      key: breadcrumb
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-maintop-9444:
+    type: particle
+    subtype: position
+    title: 'Position - MainTop Header'
+    attributes:
+      enabled: true
+      key: maintop-header
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-maintop-4108:
+    type: particle
+    subtype: position
+    title: 'Position - MainTop A'
+    attributes:
+      enabled: true
+      key: maintop-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-maintop-7470:
+    type: particle
+    subtype: position
+    title: 'Position - MainTop B'
+    attributes:
+      enabled: true
+      key: maintop-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-maintop-1266:
+    type: particle
+    subtype: position
+    title: 'Position - MainTop C'
+    attributes:
+      enabled: true
+      key: maintop-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-maintop-9888:
+    type: particle
+    subtype: position
+    title: 'Position - MainTop D'
+    attributes:
+      enabled: true
+      key: maintop-d
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-maintop-7130:
+    type: particle
+    subtype: position
+    title: 'Position - MainTop Footer'
+    attributes:
+      enabled: true
+      key: maintop-footer
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-sidebar-9887:
+    type: particle
+    subtype: position
+    title: 'Position - Sidebar'
+    attributes:
+      enabled: true
+      key: sidebar-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-content-top-9476:
+    type: particle
+    subtype: position
+    title: 'Position - Content Top Header'
+    attributes:
+      enabled: true
+      key: content-top-header
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-content-top-7729:
+    type: particle
+    subtype: position
+    title: 'Position - Content Top A'
+    attributes:
+      enabled: true
+      key: content-top-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '33.3'
+  position-content-top-6862:
+    type: particle
+    subtype: position
+    title: 'Position - Content Top B'
+    attributes:
+      enabled: true
+      key: content-top-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '33.3'
+  position-content-top-3192:
+    type: particle
+    subtype: position
+    title: 'Position - Content Top C'
+    attributes:
+      enabled: true
+      key: content-top-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '33.3'
+  position-content-top-8410:
+    type: particle
+    subtype: position
+    title: 'Position - Content Top Footer'
+    attributes:
+      enabled: true
+      key: content-top-footer
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-content-bottom-6577:
+    type: particle
+    subtype: position
+    title: 'Position - Content Bottom Header'
+    attributes:
+      enabled: true
+      key: content-bottom-header
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '33.3'
+  position-content-bottom-4423:
+    type: particle
+    subtype: position
+    title: 'Position - Content Bottom A'
+    attributes:
+      enabled: true
+      key: content-bottom-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '33.3'
+  position-content-bottom-3246:
+    type: particle
+    subtype: position
+    title: 'Position - Content Bottom B'
+    attributes:
+      enabled: true
+      key: content-bottom-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '33.3'
+  position-content-bottom-2967:
+    type: particle
+    subtype: position
+    title: 'Position - Content Bottom C'
+    attributes:
+      enabled: true
+      key: content-bottom-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '33.3'
+  position-content-bottom-7901:
+    type: particle
+    subtype: position
+    title: 'Position - Content Bottom Footer'
+    attributes:
+      enabled: true
+      key: content-bottom-footer
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '33.3'
+  position-mainbottom-4813:
+    type: particle
+    subtype: position
+    title: 'Position - MainBottom Header'
+    attributes:
+      enabled: true
+      key: mainbottom-header
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-mainbottom-8581:
+    type: particle
+    subtype: position
+    title: 'Position - MainBottom A'
+    attributes:
+      enabled: true
+      key: mainbottom-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-mainbottom-4597:
+    type: particle
+    subtype: position
+    title: 'Position - MainBottom B'
+    attributes:
+      enabled: true
+      key: mainbottom-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-mainbottom-9871:
+    type: particle
+    subtype: position
+    title: 'Position - MainBottom C'
+    attributes:
+      enabled: true
+      key: mainbottom-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-mainbottom-5233:
+    type: particle
+    subtype: position
+    title: 'Position - MainBottom D'
+    attributes:
+      enabled: true
+      key: mainbottom-d
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-mainbottom-6486:
+    type: particle
+    subtype: position
+    title: 'Position - MainBottom Footer'
+    attributes:
+      enabled: true
+      key: mainbottom-footer
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-extension-4369:
+    type: particle
+    subtype: position
+    title: 'Position - Extension Header'
+    attributes:
+      enabled: true
+      key: extension-header
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-extension-2509:
+    type: particle
+    subtype: position
+    title: 'Position - Extension A'
+    attributes:
+      enabled: true
+      key: extension-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-extension-3659:
+    type: particle
+    subtype: position
+    title: 'Position - Extension B'
+    attributes:
+      enabled: true
+      key: extension-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-extension-3840:
+    type: particle
+    subtype: position
+    title: 'Position - Extension C'
+    attributes:
+      enabled: true
+      key: extension-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-extension-2974:
+    type: particle
+    subtype: position
+    title: 'Position - Extension D'
+    attributes:
+      enabled: true
+      key: extension-d
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-extension-4998:
+    type: particle
+    subtype: position
+    title: 'Position - Extension Footer'
+    attributes:
+      enabled: true
+      key: extension-footer
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-bottom-3655:
+    type: particle
+    subtype: position
+    title: 'Position - Bottom Header'
+    attributes:
+      enabled: true
+      key: bottom-header
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-bottom-7190:
+    type: particle
+    subtype: position
+    title: 'Position - Bottom A'
+    attributes:
+      enabled: true
+      key: bottom-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-bottom-1071:
+    type: particle
+    subtype: position
+    title: 'Position - Bottom B'
+    attributes:
+      enabled: true
+      key: bottom-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-bottom-1375:
+    type: particle
+    subtype: position
+    title: 'Position - Bottom C'
+    attributes:
+      enabled: true
+      key: bottom-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-bottom-5510:
+    type: particle
+    subtype: position
+    title: 'Position - Bottom D'
+    attributes:
+      enabled: true
+      key: bottom-d
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-bottom-8933:
+    type: particle
+    subtype: position
+    title: 'Position - Bottom Footer'
+    attributes:
+      enabled: true
+      key: bottom-footer
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-footer-1017:
+    type: particle
+    subtype: position
+    title: 'Position - Footer Header'
+    attributes:
+      enabled: true
+      key: footer-header
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-footer-2440:
+    type: particle
+    subtype: position
+    title: 'Position - Footer A'
+    attributes:
+      enabled: true
+      key: footer-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-footer-1419:
+    type: particle
+    subtype: position
+    title: 'Position - Footer B'
+    attributes:
+      enabled: true
+      key: footer-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-footer-6890:
+    type: particle
+    subtype: position
+    title: 'Position - Footer C'
+    attributes:
+      enabled: true
+      key: footer-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-footer-6686:
+    type: particle
+    subtype: position
+    title: 'Position - Footer D'
+    attributes:
+      enabled: true
+      key: footer-d
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-footer-4555:
+    type: particle
+    subtype: position
+    title: 'Position - Footer Bottom'
+    attributes:
+      enabled: true
+      key: footer-bottom
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-copyright-6275:
+    type: particle
+    subtype: position
+    title: 'Position - Copyright Header'
+    attributes:
+      enabled: true
+      key: copyright-header
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-copyright-4650:
+    type: particle
+    subtype: position
+    title: 'Position - Copyright A'
+    attributes:
+      enabled: true
+      key: copyright-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-copyright-9783:
+    type: particle
+    subtype: position
+    title: 'Position - Copyright B'
+    attributes:
+      enabled: true
+      key: copyright-b
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-copyright-8414:
+    type: particle
+    subtype: position
+    title: 'Position - Copyright C'
+    attributes:
+      enabled: true
+      key: copyright-c
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-copyright-6392:
+    type: particle
+    subtype: position
+    title: 'Position - Copyright D'
+    attributes:
+      enabled: true
+      key: copyright-d
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-copyright-1237:
+    type: particle
+    subtype: position
+    title: 'Position - Copyright Footer'
+    attributes:
+      enabled: true
+      key: copyright-footer
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  mobile-menu-8694:
+    type: particle
+    subtype: mobile-menu
+    title: 'Mobile Menu'
+    attributes:
+      enabled: true
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
